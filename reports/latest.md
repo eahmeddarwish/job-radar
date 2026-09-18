@@ -1,54 +1,65 @@
 ## Job Radar — 2026-09-18
 
-**6** scanned · **4** new matches · **1** filtered out
+**371** scanned · **0** new matches · **40** filtered out
 
-### 1. GCC employer — may sponsor residency
-_Highest priority: these are the roles that can fix the residency, not just the income._
-
-**[Automation Engineer](https://x/2)** — Zain Group
-`61` · Kuwait City, Kuwait · via arbeitnow
-Send: **Ahmed_Darwish_Embedded_IoT_Engineer_EN.pdf** (Embedded & IoT Engineer)
-_title matches 'automation engineer' · core skills: embedded, sensors, iot, plc, scada, embedded c_
-
-### 2. Universities, colleges and schools
-_Academic and training routes. Most are in the Gulf and sponsor; check each one._
-
-**[Lecturer — Electrical Engineering](https://gust.edu.kw/jobs/ee)** — Gulf University for Science and Technology (GUST)
-`61` · Mishref, Kuwait · via institution/gust
-Send: **Ahmed_Darwish_Lecturer_Academic_EN.pdf** (Lecturer / Lab Instructor)
-_title matches 'lecturer' · core skills: lecturer, laboratory, electrical engineering, electronics, undergraduate, academic_
-
-### 3. Remote income — no residency
-_Good money, foreign employer. Does not provide Kuwaiti residency on its own._
-
-**[Senior Machine Learning Engineer](https://x/3)** — Nuvia
-`65` · Remote - Worldwide · via remotive
-Send: **Ahmed_Darwish_AI_Software_Engineer_EN.pdf** (AI & Software Engineer)
-_title matches 'machine learning' · core skills: python, pytorch, tensorflow, opencv, yolo, onnx · also mentions: raspberry pi, edge_
-
-**[Founding Software Engineer](https://x/4)** — The Flex
-`59` · Paris; Albania; Cairo; Kuwait; London; Oman; Qatar · via ashby/The-Flex
-Send: **Ahmed_Darwish_AI_Software_Engineer_EN.pdf** (AI & Software Engineer)
-_title matches 'software engineer' · core skills: python, llm, openai, automation, api · also mentions: docker, fastapi_
-
-### Interview yield
-
-| source | surfaced | applied | interviews | offers | rate |
-|---|---|---|---|---|---|
-| arbeitnow | 1 | 1 | 1 | 0 | 100% |
-| remotive | 1 | 1 | 0 | 0 | 0% |
+_No new matches today._
 
 ### ⚠️ Sources needing attention
 
+- **institution/au-kuwait** — unreachable: HTTPError: HTTP Error 404: Not Found (1 run(s) in a row)
+- **institution/auk** — unreachable: HTTPError: HTTP Error 404: Not Found (1 run(s) in a row)
+- **institution/bsk** — unreachable: HTTPError: HTTP Error 404: 404 File Not Found (1 run(s) in a row)
+- **institution/gust** — unreachable: HTTPError: HTTP Error 403: Forbidden (1 run(s) in a row)
+- **institution/kcst** — unreachable: TimeoutError: The read operation timed out (1 run(s) in a row)
+- **institution/kuwait-university** — unreachable: HTTPError: HTTP Error 404: Not Found (1 run(s) in a row)
 - **institution/paaet** — unreachable: HTTPError: HTTP Error 404: Not Found (1 run(s) in a row)
 
 <details><summary>Filtered out, and why</summary>
 
-- **Staff Backend Engineer** — Northwind · work_authorisation: matched "must be authorized to work in the us"
+- **Technical Product Research Intern in Agentic Payments / Stablecoins / Web3** — Atrya · location: "Berlin" is outside his work radius
+- **Mandatory Internship(Unpaid), Software Test(QA) Automation Engineer** — IndieKidz GmbH · seniority_mismatch: matched "internship"
+- **HR Manager - Personalentwicklung & Nachwuchsförderung (m/w/d)** — MERENTIS GmbH · location: "Bremen" is outside his work radius
+- **Full Stack Developer** — Vetaion GmbH · location: "Garching" is outside his work radius
+- **Lohn- und Gehaltsbuchhalter (m/w/d)** — Flohr Holding GmbH · location: "Siegburg" is outside his work radius
+- **Krankenhausberater/in mit Schwerpunkt Controlling (m/w/d) in Voll- oder Teilzeit** — KHZV PLUS GmbH · location: "Cologne" is outside his work radius
+- **Founders Associate** — Vetaion GmbH · location: "Garching" is outside his work radius
+- **Mitarbeiter im Kundenservice (w/m/d)** — Migrando GmbH · location: "Cottbus" is outside his work radius
+- **Senior Consultant (m/w/d) BI & Konsolidierung** — ANGEHEUERT GmbH · location: "Stuttgart" is outside his work radius
+- **Senior Consultant (m/w/d) Finance Solutions** — ANGEHEUERT GmbH · location: "Baden Württemberg" is outside his work radius
+- **Managing Director (m/w/d) Finance & BI** — ANGEHEUERT GmbH · location: "Stuttgart" is outside his work radius
+- **Karriereschritt ✔️ Controller zum Senior Consultant (m/w/d)** — ANGEHEUERT GmbH · location: "Bayern" is outside his work radius
+- **Werkstudent (m/w/d) Marketing, Schwerpunkt Events und Social Media** — Eisele Flugdienst GmbH · location: "Filderstadt" is outside his work radius
+- **(Senior) DevOps Engineer - Infrastructure & Security (m/f/d)** — Testsieger.de Vergleichsportal GmbH · location: "Osnabrück" is outside his work radius
+- **Werkstudent Google Ads / SEA (m/w/d)** — ondevi GmbH · location: "Munich" is outside his work radius
+- **HR Business Partner (m/w/d)** — Goldwechselhaus GmbH · location: "Düsseldorf" is outside his work radius
+- **IT Sales / Account Manager Server & Storage (w/m/d)** — Serverhero GmbH · location: "Cologne" is outside his work radius
+- **Senior Design Engineer, Design Operations: AI-Powered Design Platform** — celonis · location: "Munich" is outside his work radius
+- **Senior Applied Value Engineer** — celonis · location: "Munich" is outside his work radius
+- **Enterprise Architect Director** — celonis · location: "Munich" is outside his work radius
+- **Enterprise Account Executive, Public Sector, DACH** — anthropic · location: "Munich" is outside his work radius
+- **Applied AI Architect, Partnerships** — anthropic · location: "Munich" is outside his work radius
+- **Software Engineer, Platform - Munich, Germany** — speechify · location: "Munich" is outside his work radius
+- **Software Engineer, Platform - Hamburg, Germany** — speechify · location: "Hamburg" is outside his work radius
+- **Software Engineer, Platform - Düsseldorf, Germany** — speechify · location: "Düsseldorf" is outside his work radius
+- **Software Engineer in Test (Berlin)** — cresta · location: "Berlin" is outside his work radius
+- **Senior Software Engineer, Backend (Berlin)** — cresta · location: "Berlin" is outside his work radius
+- **Senior Product Designer, Core Platform** — cresta · location: "Berlin" is outside his work radius
+- **Senior Forward Deployed Engineer (AI Agent) - Germany** — cresta · location: "Berlin" is outside his work radius
+- **(Senior) Account Executive, Embedded Investments - Europe (f/m/d)** — Upvest · location: "Berlin" is outside his work radius
+- **Associate Business Development Manager, Financial Institutions - Germany (f/m/d)** — Upvest · location: "Berlin" is outside his work radius
+- **Senior Business Development Manager, Financial Institutions - Germany (f/m/d)** — Upvest · location: "Berlin" is outside his work radius
+- **General Manager, League of Legends** — Fnatic · location: "Berlin" is outside his work radius
+- **Strategy & Operations, Germany** — OpenAI · location: "Munich, Germany" is outside his work radius
+- **Revenue Operations Manager - Sales Excellence** — SoSafe · location: "Cologne" is outside his work radius
+- **Customer Success Manager (m/w/d)** — SoSafe · location: "Cologne" is outside his work radius
+- **Revenue Operations Manager - Demand Generation** — SoSafe · location: "Cologne" is outside his work radius
+- **Embedded Linux Software Engineer (m/f/d) - Maritime N3XT** — Quantum-Systems GmbH · location: "Gilching, Bayern, Germany" is outside his work radius
+- **(Senior) Software Engineer - Developer Enablement (m/f/d)** — Quantum-Systems GmbH · location: "Gilching, Bayern, Germany" is outside his work radius
+- **Senior Machine Learning Engineer (m/f/d)** — Quantum-Systems GmbH · location: "Gilching, Bayern, Germany" is outside his work radius
 
 </details>
 
 ---
-Sources: remotive: 150 jobs · remoteok: 120 jobs · arbeitnow: 101 jobs · institution/gust: structured (1) · institution/bsk: changed (1) · institution/paaet: failed
+Sources: remotive: 15 jobs · remoteok: 99 jobs · arbeitnow: 250 jobs · ashby/The-Flex: 7 jobs · institution/kuwait-university: failed · institution/paaet: failed · institution/gust: failed · institution/auk: failed · institution/aum: baselined · institution/kcst: failed · institution/au-kuwait: failed · institution/box-hill: baselined · institution/ask: baselined · institution/bsk: failed
 
 _Finds and ranks only. It never applies for you._
