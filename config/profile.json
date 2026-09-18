@@ -1,0 +1,87 @@
+{
+  "candidate": {
+    "name": "Ahmed Darwish",
+    "based_in": "Kuwait",
+    "timezone": "GMT+3",
+    "work_authorisation": ["Kuwait"],
+    "open_to": ["remote-worldwide", "remote-emea", "kuwait", "gcc"]
+  },
+
+  "tracks": [
+    {
+      "id": "ai-software",
+      "label": "AI & Software Engineer",
+      "cv": "Ahmed_Darwish_AI_Software_Engineer_EN.pdf",
+      "title_hits": ["ai engineer", "machine learning", "ml engineer", "software engineer",
+                     "python developer", "computer vision", "automation engineer",
+                     "founding engineer", "backend engineer", "llm", "applied ai"],
+      "strong": ["python", "pytorch", "tensorflow", "opencv", "yolo", "onnx", "llm",
+                 "openai", "computer vision", "machine learning", "automation", "api"],
+      "weak": ["docker", "fastapi", "postgres", "git", "linux", "raspberry pi", "edge"]
+    },
+    {
+      "id": "embedded-iot",
+      "label": "Embedded & IoT Engineer",
+      "cv": "Ahmed_Darwish_Embedded_IoT_Engineer_EN.pdf",
+      "title_hits": ["embedded", "firmware", "iot", "hardware engineer", "electronics engineer",
+                     "control engineer", "instrumentation", "automation engineer", "plc"],
+      "strong": ["embedded", "microcontroller", "stm32", "esp32", "arduino", "rtos",
+                 "firmware", "sensors", "iot", "plc", "scada", "embedded c"],
+      "weak": ["pcb", "schematic", "signal conditioning", "modbus", "can bus", "raspberry pi"]
+    },
+    {
+      "id": "technical-trainer",
+      "label": "Technical Trainer",
+      "cv": "Ahmed_Darwish_Technical_Trainer_EN.pdf",
+      "title_hits": ["trainer", "training specialist", "instructor", "technical trainer",
+                     "learning and development", "curriculum", "training manager"],
+      "strong": ["training", "trainer", "curriculum", "workshop", "instructional",
+                 "technical training", "capacity building", "arabic"],
+      "weak": ["e-learning", "assessment", "coaching", "facilitation"]
+    },
+    {
+      "id": "lecturer",
+      "label": "Lecturer / Lab Instructor",
+      "cv": "Ahmed_Darwish_Lecturer_Academic_EN.pdf",
+      "title_hits": ["lecturer", "instructor", "teaching assistant", "faculty",
+                     "lab instructor", "academic", "professor"],
+      "strong": ["lecturer", "teaching", "laboratory", "electrical engineering",
+                 "electronics", "undergraduate", "academic"],
+      "weak": ["supervision", "graduation project", "syllabus", "accreditation"]
+    }
+  ],
+
+  "knockouts": {
+    "work_authorisation": [
+      "must be authorized to work in the us", "us citizens only", "must be a us citizen",
+      "green card", "security clearance", "must hold uk right to work",
+      "no visa sponsorship", "we are unable to sponsor", "cannot provide sponsorship",
+      "eu work permit required", "must be eligible to work in canada",
+      "authorized to work in the united states without sponsorship"
+    ],
+    "relocation": [
+      "relocation to the us is required", "must relocate to", "onsite only in",
+      "this is an in-office role in", "5 days a week in the office in"
+    ],
+    "seniority_mismatch": [
+      "internship", "intern position", "graduate scheme", "apprenticeship"
+    ]
+  },
+
+  "location_allow": [
+    "remote", "worldwide", "anywhere", "global", "emea", "mena", "middle east",
+    "kuwait", "saudi", "uae", "dubai", "abu dhabi", "qatar", "doha", "bahrain", "oman",
+    "egypt", "jordan"
+  ],
+
+  "sources": {
+    "remotive": true,
+    "remoteok": true,
+    "arbeitnow": true,
+    "greenhouse_boards": [],
+    "ashby_boards": ["The-Flex"]
+  },
+
+  "min_score": 30,
+  "max_report_items": 25
+}

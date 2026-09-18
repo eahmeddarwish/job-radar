@@ -1,0 +1,52 @@
+name: daily job radar
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # 08:00 Kuwait time, every day
+  workflow_dispatch:       # and a manual "run now" button
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Restore the seen-jobs database
+        uses: actions/cache@v4
+        with:
+          path: radar.db
+          key: radar-db-${{ github.run_id }}
+          restore-keys: radar-db-
+
+      - name: Scan
+        run: python run.py scan
+
+      - name: Open today's report as an issue
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('reports/latest.md', 'utf8');
+            const today = new Date().toISOString().slice(0, 10);
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Job Radar — ${today}`,
+              body,
+            });
+
+      - name: Commit the report
+        run: |
+          git config user.name  "job-radar"
+          git config user.email "actions@github.com"
+          git add reports radar.db || true
+          git diff --staged --quiet || git commit -m "radar: report for $(date +%F)"
+          git push || true
