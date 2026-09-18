@@ -4,7 +4,7 @@ A daily scan that reads the job boards so Ahmed doesn't have to, ranks what it f
 against four CV tracks, and says which CV to send to which job.
 
 ```
-scan sources ─► hard knockouts ─► score per CV track ─► dedup ─► daily report
+scan sources ─► classify route ─► hard knockouts ─► score per CV track ─► dedup ─► daily report
 ```
 
 **It does not apply for you.** That is a design decision, not a missing feature —
@@ -26,6 +26,65 @@ So this one automates the expensive part — finding, filtering and ranking — 
 you a short list with the reasoning attached. You open the link and send it yourself.
 Ten minutes a day, against roles that can actually hire you.
 
+## Three routes, not one list
+
+A job is sorted into one of three routes **before** it is scored, and the report
+follows that order:
+
+1. **GCC employer — may sponsor residency.** The roles that fix the residency, not
+   just the income.
+2. **Universities, colleges and schools.** The academic and training route.
+3. **Remote income — no residency.** Good money, foreign employer, solves half the
+   problem.
+
+This is a decision hierarchy, not a preference. A remote job scoring 95 never
+appears above a sponsorship job scoring 85, because the two are not competing for
+the same thing. Score ranks jobs *within* a route.
+
+The distinction that took the most care: a Gulf city named in a posting is not the
+same as a Gulf employer. A London company whose posting lists eighty permitted
+countries, Kuwait among them, is remote income — `radar/tracks.py` treats a long
+country list or an explicitly worldwide location as exactly that.
+
+## Interview yield — the only number that matters
+
+Not jobs scanned. Not jobs matched. What reached an interview.
+
+```bash
+python run.py applied <uid>              # you sent one
+python run.py outcome <uid> interview    # ... and they replied
+python run.py outcome <uid> rejected
+python run.py yield                      # the funnel, per source
+```
+
+After a few weeks this answers the question no amount of scanning can: which
+sources are worth the hours. Expand what produces interviews; drop what doesn't.
+
+## Watching institutions
+
+Universities, colleges and international schools rarely reach the aggregators.
+`radar/institutions.py` watches ten Kuwaiti ones daily, in order of preference:
+
+1. **schema.org JobPosting** embedded as JSON-LD — a real, structured vacancy.
+2. **Content-hash change detection** — when there is no structured data, the page
+   is hashed, and a changed hash emits one item saying "this page changed, go and
+   look". Crude, but honest about what it knows, and it never invents a vacancy.
+
+Add more in `config/profile.json` under `institutions`.
+
+## Source health
+
+A source returning nothing is recorded as *healthy and quiet* or as *failed* —
+never silently as zero, because a dead parser and an empty week look identical
+until you make them look different.
+
+```bash
+python run.py health
+```
+
+Failures appear in the daily report with the reason, so a broken URL is fixed in
+days rather than discovered in a month.
+
 ## The filters that matter most
 
 Scoring is the obvious half. The half that saves real hours is `radar/knockouts.py`,
@@ -45,8 +104,11 @@ returns a silence he cannot read.
 ```bash
 python run.py scan            # scan, write today's report
 python run.py scan --dry-run  # build the report without consuming the queue
-python run.py stats           # pipeline counts and what you've applied to
+python run.py yield           # the funnel per source
+python run.py health          # which sources are alive
+python run.py stats           # pipeline counts
 python run.py applied <uid>   # log that you sent one
+python run.py outcome <uid> interview|offer|rejected|no_reply
 python run.py skip <uid>      # log that you passed
 python -m unittest discover -s tests
 ```
@@ -95,7 +157,9 @@ continues on the rest.
 ## Layout
 
 ```
-config/profile.json   the four CV tracks, the knockouts, the sources
+config/profile.json   the four CV tracks, the knockouts, the sources, the institutions
+radar/tracks.py       the three routes — decided before scoring
+radar/institutions.py university, college and school watchers
 radar/sources.py      the scanners — one function per board
 radar/knockouts.py    hard rejects, applied before scoring
 radar/score.py        per-track scoring, with the reasons kept

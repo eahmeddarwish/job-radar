@@ -82,6 +82,33 @@ class TestScoring(unittest.TestCase):
         self.assertLess(v["score"], PROFILE.min_score)
 
 
+class TestNoiseFilters(unittest.TestCase):
+    """Rules added after the first live run surfaced seven jobs, four of them noise."""
+
+    def test_anti_pattern_in_title_kills_the_track(self):
+        v = evaluate(job(title="QA Software Test Automation Engineers (Java)",
+                         description="Test automation frameworks in Java, REST API testing."), PROFILE)
+        self.assertLess(v["score"], PROFILE.min_score)
+
+    def test_labelling_gig_is_not_a_training_role(self):
+        v = evaluate(job(title="AI Trainer Image QA Evaluator",
+                         description="Evaluate and label images. Training data quality."), PROFILE)
+        self.assertEqual(v["score"], 0)
+
+    def test_generic_title_with_thin_skills_is_penalised(self):
+        thin = evaluate(job(title="Software Engineer GO",
+                            description="Golang services and API work."), PROFILE)
+        deep = evaluate(job(title="Software Engineer",
+                            description="Python, PyTorch, OpenCV, machine learning, automation, OpenAI."), PROFILE)
+        self.assertLess(thin["score"], PROFILE.min_score)
+        self.assertGreaterEqual(deep["score"], PROFILE.min_score)
+
+    def test_genai_titles_are_recognised(self):
+        v = evaluate(job(title="Senior GenAI Solution Engineer",
+                         description="Python, LLM, OpenAI, machine learning, API, Docker, FastAPI, git."), PROFILE)
+        self.assertGreaterEqual(v["score"], PROFILE.min_score)
+
+
 class TestStore(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
@@ -119,3 +146,102 @@ class TestStore(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestTracks(unittest.TestCase):
+    """The decision hierarchy: which route a job belongs to, decided before score."""
+
+    def test_the_three_routes(self):
+        from radar.tracks import classify, GCC_SPONSORED, INSTITUTIONAL, REMOTE_FOREIGN
+        cases = [
+            ({"source": "institution/gust", "company": "GUST", "location": "Kuwait",
+              "title": "Lecturer"}, INSTITUTIONAL),
+            ({"source": "arbeitnow", "company": "Zain", "location": "Kuwait City, Kuwait",
+              "title": "Automation Engineer"}, GCC_SPONSORED),
+            ({"source": "remoteok", "company": "Mirantis", "location": "Remote - Worldwide",
+              "title": "Software Engineer"}, REMOTE_FOREIGN),
+            ({"source": "arbeitnow", "company": "KFUPM", "location": "Dhahran, Saudi Arabia",
+              "title": "Instructor"}, INSTITUTIONAL),
+        ]
+        for job, want in cases:
+            with self.subTest(company=job["company"]):
+                self.assertEqual(classify(job), want)
+
+    def test_a_long_country_list_is_remote_not_a_gulf_employer(self):
+        """The Flex case: a London company listing eighty permitted countries,
+        Kuwait among them. That is remote income, not a sponsor."""
+        from radar.tracks import classify, REMOTE_FOREIGN
+        job = {"source": "ashby/The-Flex", "company": "The Flex",
+               "location": "Paris; Albania; Cairo; Kuwait; London; Oman; Qatar",
+               "title": "Founding Software Engineer"}
+        self.assertEqual(classify(job), REMOTE_FOREIGN)
+
+
+class TestYield(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.store = Store(Path(self.tmp.name) / "t.db")
+
+    def tearDown(self):
+        self.store.close()
+        self.tmp.cleanup()
+
+    def _add(self, uid, source, track="GCC_SPONSORED"):
+        j = job(uid=uid, title="AI Engineer", url=f"https://x/{uid}")
+        j["source"] = source
+        j["employment_track"] = track
+        self.store.add(j, {"score": 80, "track": "ai-software", "reasons": [], "rejected": False})
+
+    def test_funnel_counts_per_source(self):
+        self._add("a:1", "remotive"); self._add("a:2", "remotive"); self._add("b:1", "institution/gust")
+        self.store.mark_applied("a:1")
+        self.store.mark_applied("b:1")
+        self.store.mark_outcome("b:1", "interview")
+
+        by_source = {y["source"]: y for y in self.store.yield_by_source()}
+        self.assertEqual(by_source["remotive"]["applied"], 1)
+        self.assertEqual(by_source["remotive"]["interviews"], 0)
+        self.assertEqual(by_source["institution/gust"]["interviews"], 1)
+        self.assertEqual(by_source["institution/gust"]["rate"], 1.0)
+
+    def test_unknown_outcome_is_rejected(self):
+        self._add("a:1", "remotive")
+        with self.assertRaises(ValueError):
+            self.store.mark_outcome("a:1", "maybe")
+
+    def test_grouping_keeps_routes_separate(self):
+        self._add("a:1", "remoteok", "REMOTE_FOREIGN")
+        self._add("b:1", "arbeitnow", "GCC_SPONSORED")
+        grouped = self.store.unreported_matches_by_track(45, 10)
+        self.assertEqual(set(grouped), {"REMOTE_FOREIGN", "GCC_SPONSORED"})
+        self.assertEqual(len(grouped["GCC_SPONSORED"]), 1)
+
+
+class TestSourceHealth(unittest.TestCase):
+    def setUp(self):
+        self.tmp = tempfile.TemporaryDirectory()
+        self.store = Store(Path(self.tmp.name) / "t.db")
+
+    def tearDown(self):
+        self.store.close()
+        self.tmp.cleanup()
+
+    def test_a_failing_source_is_counted_not_silently_zero(self):
+        self.store.record_source("institution/ku", None, "unreachable: HTTPError: 404")
+        self.store.record_source("institution/ku", None, "unreachable: HTTPError: 404")
+        row = {h["source"]: h for h in self.store.source_health()}["institution/ku"]
+        self.assertEqual(row["consecutive_fails"], 2)
+        self.assertIsNone(row["last_count"])
+
+    def test_recovery_resets_the_failure_count(self):
+        self.store.record_source("remotive", None, "boom")
+        self.store.record_source("remotive", 140, "ok")
+        row = {h["source"]: h for h in self.store.source_health()}["remotive"]
+        self.assertEqual(row["consecutive_fails"], 0)
+        self.assertEqual(row["last_count"], 140)
+
+    def test_page_hash_round_trip(self):
+        self.store.record_source("institution/bsk", 0, "watching")
+        self.assertIsNone(self.store.page_hash("institution/bsk"))
+        self.store.set_page_hash("institution/bsk", "deadbeef")
+        self.assertEqual(self.store.page_hash("institution/bsk"), "deadbeef")

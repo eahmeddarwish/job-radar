@@ -3,85 +3,324 @@
     "name": "Ahmed Darwish",
     "based_in": "Kuwait",
     "timezone": "GMT+3",
-    "work_authorisation": ["Kuwait"],
-    "open_to": ["remote-worldwide", "remote-emea", "kuwait", "gcc"]
+    "work_authorisation": [
+      "Kuwait"
+    ],
+    "open_to": [
+      "remote-worldwide",
+      "remote-emea",
+      "kuwait",
+      "gcc"
+    ]
   },
-
   "tracks": [
     {
       "id": "ai-software",
       "label": "AI & Software Engineer",
       "cv": "Ahmed_Darwish_AI_Software_Engineer_EN.pdf",
-      "title_hits": ["ai engineer", "machine learning", "ml engineer", "software engineer",
-                     "python developer", "computer vision", "automation engineer",
-                     "founding engineer", "backend engineer", "llm", "applied ai"],
-      "strong": ["python", "pytorch", "tensorflow", "opencv", "yolo", "onnx", "llm",
-                 "openai", "computer vision", "machine learning", "automation", "api"],
-      "weak": ["docker", "fastapi", "postgres", "git", "linux", "raspberry pi", "edge"]
+      "title_hits": [
+        "ai engineer",
+        "machine learning",
+        "ml engineer",
+        "software engineer",
+        "python developer",
+        "computer vision",
+        "automation engineer",
+        "founding engineer",
+        "backend engineer",
+        "llm",
+        "applied ai",
+        "genai",
+        "generative ai",
+        "ai/ml",
+        "solutions engineer",
+        "platform engineer",
+        "data engineer"
+      ],
+      "strong": [
+        "python",
+        "pytorch",
+        "tensorflow",
+        "opencv",
+        "yolo",
+        "onnx",
+        "llm",
+        "openai",
+        "computer vision",
+        "machine learning",
+        "automation",
+        "api"
+      ],
+      "weak": [
+        "docker",
+        "fastapi",
+        "postgres",
+        "git",
+        "linux",
+        "raspberry pi",
+        "edge"
+      ],
+      "anti": [
+        "qa",
+        "quality assurance",
+        "test automation",
+        "sdet",
+        "tester",
+        "evaluator",
+        "annotator",
+        "data labeling",
+        "data entry",
+        "transcriber"
+      ]
     },
     {
       "id": "embedded-iot",
       "label": "Embedded & IoT Engineer",
       "cv": "Ahmed_Darwish_Embedded_IoT_Engineer_EN.pdf",
-      "title_hits": ["embedded", "firmware", "iot", "hardware engineer", "electronics engineer",
-                     "control engineer", "instrumentation", "automation engineer", "plc"],
-      "strong": ["embedded", "microcontroller", "stm32", "esp32", "arduino", "rtos",
-                 "firmware", "sensors", "iot", "plc", "scada", "embedded c"],
-      "weak": ["pcb", "schematic", "signal conditioning", "modbus", "can bus", "raspberry pi"]
+      "title_hits": [
+        "embedded",
+        "firmware",
+        "iot",
+        "hardware engineer",
+        "electronics engineer",
+        "control engineer",
+        "instrumentation",
+        "automation engineer",
+        "plc"
+      ],
+      "strong": [
+        "embedded",
+        "microcontroller",
+        "stm32",
+        "esp32",
+        "arduino",
+        "rtos",
+        "firmware",
+        "sensors",
+        "iot",
+        "plc",
+        "scada",
+        "embedded c"
+      ],
+      "weak": [
+        "pcb",
+        "schematic",
+        "signal conditioning",
+        "modbus",
+        "can bus",
+        "raspberry pi"
+      ],
+      "anti": [
+        "sales",
+        "technician",
+        "installer",
+        "helpdesk",
+        "field service"
+      ]
     },
     {
       "id": "technical-trainer",
       "label": "Technical Trainer",
       "cv": "Ahmed_Darwish_Technical_Trainer_EN.pdf",
-      "title_hits": ["trainer", "training specialist", "instructor", "technical trainer",
-                     "learning and development", "curriculum", "training manager"],
-      "strong": ["training", "trainer", "curriculum", "workshop", "instructional",
-                 "technical training", "capacity building", "arabic"],
-      "weak": ["e-learning", "assessment", "coaching", "facilitation"]
+      "title_hits": [
+        "trainer",
+        "training specialist",
+        "instructor",
+        "technical trainer",
+        "learning and development",
+        "curriculum",
+        "training manager"
+      ],
+      "strong": [
+        "training",
+        "trainer",
+        "curriculum",
+        "workshop",
+        "instructional",
+        "technical training",
+        "capacity building",
+        "arabic"
+      ],
+      "weak": [
+        "e-learning",
+        "assessment",
+        "coaching",
+        "facilitation"
+      ],
+      "anti": [
+        "evaluator",
+        "annotator",
+        "data labeling",
+        "qa",
+        "fitness",
+        "sales trainer",
+        "gym"
+      ]
     },
     {
       "id": "lecturer",
       "label": "Lecturer / Lab Instructor",
       "cv": "Ahmed_Darwish_Lecturer_Academic_EN.pdf",
-      "title_hits": ["lecturer", "instructor", "teaching assistant", "faculty",
-                     "lab instructor", "academic", "professor"],
-      "strong": ["lecturer", "teaching", "laboratory", "electrical engineering",
-                 "electronics", "undergraduate", "academic"],
-      "weak": ["supervision", "graduation project", "syllabus", "accreditation"]
+      "title_hits": [
+        "lecturer",
+        "instructor",
+        "teaching assistant",
+        "faculty",
+        "lab instructor",
+        "academic",
+        "professor"
+      ],
+      "strong": [
+        "lecturer",
+        "teaching",
+        "laboratory",
+        "electrical engineering",
+        "electronics",
+        "undergraduate",
+        "academic"
+      ],
+      "weak": [
+        "supervision",
+        "graduation project",
+        "syllabus",
+        "accreditation"
+      ],
+      "anti": [
+        "admissions",
+        "recruiter",
+        "student counsellor",
+        "sales"
+      ]
     }
   ],
-
   "knockouts": {
     "work_authorisation": [
-      "must be authorized to work in the us", "us citizens only", "must be a us citizen",
-      "green card", "security clearance", "must hold uk right to work",
-      "no visa sponsorship", "we are unable to sponsor", "cannot provide sponsorship",
-      "eu work permit required", "must be eligible to work in canada",
-      "authorized to work in the united states without sponsorship"
+      "must be authorized to work in the us",
+      "us citizens only",
+      "must be a us citizen",
+      "green card",
+      "security clearance",
+      "must hold uk right to work",
+      "no visa sponsorship",
+      "we are unable to sponsor",
+      "cannot provide sponsorship",
+      "eu work permit required",
+      "must be eligible to work in canada",
+      "authorized to work in the united states without sponsorship",
+      "must be legally authorized to work in the united states",
+      "eligible to work in the us",
+      "us-based only",
+      "united states only",
+      "must reside in the united states",
+      "work authorization in the united states",
+      "right to work in the uk",
+      "must be based in the us"
     ],
     "relocation": [
-      "relocation to the us is required", "must relocate to", "onsite only in",
-      "this is an in-office role in", "5 days a week in the office in"
+      "relocation to the us is required",
+      "must relocate to",
+      "onsite only in",
+      "this is an in-office role in",
+      "5 days a week in the office in"
     ],
     "seniority_mismatch": [
-      "internship", "intern position", "graduate scheme", "apprenticeship"
+      "internship",
+      "intern position",
+      "graduate scheme",
+      "apprenticeship"
     ]
   },
-
   "location_allow": [
-    "remote", "worldwide", "anywhere", "global", "emea", "mena", "middle east",
-    "kuwait", "saudi", "uae", "dubai", "abu dhabi", "qatar", "doha", "bahrain", "oman",
-    "egypt", "jordan"
+    "remote",
+    "worldwide",
+    "anywhere",
+    "global",
+    "emea",
+    "mena",
+    "middle east",
+    "kuwait",
+    "saudi",
+    "uae",
+    "dubai",
+    "abu dhabi",
+    "qatar",
+    "doha",
+    "bahrain",
+    "oman",
+    "egypt",
+    "jordan"
   ],
-
   "sources": {
     "remotive": true,
     "remoteok": true,
     "arbeitnow": true,
     "greenhouse_boards": [],
-    "ashby_boards": ["The-Flex"]
+    "ashby_boards": [
+      "The-Flex"
+    ]
   },
-
-  "min_score": 30,
-  "max_report_items": 25
+  "min_score": 45,
+  "max_report_items": 25,
+  "institutions": [
+    {
+      "id": "kuwait-university",
+      "name": "Kuwait University",
+      "country": "Kuwait",
+      "careers_url": "https://www.ku.edu.kw/en/employment"
+    },
+    {
+      "id": "paaet",
+      "name": "PAAET — Public Authority for Applied Education and Training",
+      "country": "Kuwait",
+      "careers_url": "https://www.paaet.edu.kw/mypaaet/Vacancies"
+    },
+    {
+      "id": "gust",
+      "name": "Gulf University for Science and Technology (GUST)",
+      "country": "Kuwait",
+      "careers_url": "https://www.gust.edu.kw/employment"
+    },
+    {
+      "id": "auk",
+      "name": "American University of Kuwait",
+      "country": "Kuwait",
+      "careers_url": "https://auk.edu.kw/employment-opportunities/"
+    },
+    {
+      "id": "aum",
+      "name": "American University of the Middle East",
+      "country": "Kuwait",
+      "careers_url": "https://www.aum.edu.kw/careers"
+    },
+    {
+      "id": "kcst",
+      "name": "Kuwait College of Science and Technology",
+      "country": "Kuwait",
+      "careers_url": "https://www.kcst.edu.kw/careers"
+    },
+    {
+      "id": "au-kuwait",
+      "name": "Australian University Kuwait",
+      "country": "Kuwait",
+      "careers_url": "https://www.au.edu.kw/careers/"
+    },
+    {
+      "id": "box-hill",
+      "name": "Box Hill College Kuwait",
+      "country": "Kuwait",
+      "careers_url": "https://www.bhck.edu.kw/careers"
+    },
+    {
+      "id": "ask",
+      "name": "American School of Kuwait",
+      "country": "Kuwait",
+      "careers_url": "https://www.ask.edu.kw/employment"
+    },
+    {
+      "id": "bsk",
+      "name": "British School of Kuwait",
+      "country": "Kuwait",
+      "careers_url": "https://www.bsk.edu.kw/vacancies"
+    }
+  ]
 }

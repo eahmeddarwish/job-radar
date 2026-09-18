@@ -47,6 +47,20 @@ margin:34px 0 12px;padding-bottom:6px;border-bottom:1px solid var(--line)}
 .empty{color:var(--muted);font-style:italic;padding:20px 0}
 footer{margin-top:36px;padding-top:14px;border-top:1px solid var(--line);
 font-size:12px;color:var(--muted)}
+.track{margin-top:30px}
+.track h2{margin-bottom:2px;color:var(--navy);text-transform:none;font-size:17px;
+letter-spacing:0;border:0;padding:0}
+.track .note{font-size:13px;color:var(--muted);margin-bottom:12px}
+.rank{display:inline-block;background:var(--copper);color:#fff;border-radius:6px;
+padding:1px 8px;font-size:11px;font-weight:700;letter-spacing:.04em;margin-bottom:6px}
+.health{font-size:13px;padding:5px 0;border-bottom:1px solid var(--line);
+display:flex;gap:8px;align-items:baseline}
+.health .s{flex:1}
+.bad{color:var(--copper);font-weight:600}
+table.yield{width:100%;border-collapse:collapse;font-size:13px}
+table.yield th{text-align:left;color:var(--muted);font-weight:600;padding:5px 8px 5px 0;
+border-bottom:1px solid var(--line)}
+table.yield td{padding:5px 8px 5px 0;border-bottom:1px solid var(--line)}
 @media(max-width:520px){body{padding:20px 16px}h1{font-size:22px}}
 """
 
@@ -61,13 +75,9 @@ def _cv(profile, track_id):
     return t["cv"] if t else "—"
 
 
-def build_html(matches, rejections, log, profile, scanned: int) -> str:
-    today = date.today().isoformat()
+def _card(j, profile) -> str:
     e = html.escape
-
-    cards = []
-    for j in matches:
-        cards.append(f"""<div class="job">
+    return f"""<div class="job">
 <h3><a href="{e(j['url'])}" target="_blank" rel="noopener">{e(j['title'])}</a></h3>
 <div class="meta">{e(j['company'])} · {e(j['location'] or 'not stated')} · via {e(j['source'])}</div>
 <div class="row"><span class="score">{j['score']}</span>
@@ -75,14 +85,52 @@ def build_html(matches, rejections, log, profile, scanned: int) -> str:
 <span class="why">{e(_track_label(profile, j['track']))}</span></div>
 <div class="why">{e(j['reasons'] or '')}</div>
 <a class="apply" href="{e(j['url'])}" target="_blank" rel="noopener">Open and apply &rarr;</a>
-</div>""")
-    if not cards:
-        cards.append('<div class="empty">No new matches today. The scan ran — nothing cleared the bar.</div>')
+</div>"""
+
+
+def build_html(by_track, rejections, log, profile, scanned, health=(), yields=()) -> str:
+    from radar.tracks import TRACK_ORDER, TRACK_LABELS, TRACK_NOTE
+    today = date.today().isoformat()
+    e = html.escape
+    total = sum(len(v) for v in by_track.values())
+
+    sections = []
+    for rank, track in enumerate(TRACK_ORDER, start=1):
+        rows = by_track.get(track) or []
+        if not rows:
+            continue
+        cards = "".join(_card(j, profile) for j in rows)
+        sections.append(f"""<div class="track">
+<span class="rank">PRIORITY {rank}</span>
+<h2>{e(TRACK_LABELS[track])}</h2>
+<div class="note">{e(TRACK_NOTE[track])}</div>
+{cards}</div>""")
+    if not sections:
+        sections.append('<div class="empty">No new matches today. The scan ran — nothing cleared the bar.</div>')
 
     rej_rows = "".join(
         f'<div class="rej"><b>{e(r["title"])}</b> — {e(r["company"])} · {e(r["reject_why"])}</div>'
-        for r in rejections
-    ) or '<div class="empty">Nothing was filtered out.</div>'
+        for r in rejections) or '<div class="empty">Nothing was filtered out.</div>'
+
+    health_rows = ""
+    for h in health:
+        broke = (h["consecutive_fails"] or 0) > 0
+        count = "failed" if h["last_count"] is None else f"{h['last_count']} jobs"
+        cls = ' class="bad"' if broke else ""
+        health_rows += (f'<div class="health"><span class="s">{e(h["source"])}</span>'
+                        f'<span{cls}>{e(count)}</span>'
+                        f'<span class="why">{e(h["note"] or "")}</span></div>')
+    health_block = health_rows or '<div class="empty">No source history yet.</div>'
+
+    yield_rows = "".join(
+        f"<tr><td>{e(y['source'])}</td><td>{y['surfaced']}</td><td>{y['applied']}</td>"
+        f"<td>{y['interviews']}</td><td>{y['offers']}</td>"
+        f"<td>{'—' if y['rate'] is None else format(y['rate'], '.0%')}</td></tr>"
+        for y in yields if y["applied"])
+    yield_block = (f"""<table class="yield"><tr><th>source</th><th>surfaced</th><th>applied</th>
+<th>interviews</th><th>offers</th><th>rate</th></tr>{yield_rows}</table>"""
+        if yield_rows else
+        '<div class="empty">Nothing applied to yet. Run <code>python run.py applied &lt;uid&gt;</code> when you send one.</div>')
 
     return f"""<!DOCTYPE html>
 <html lang="en"><head><meta charset="utf-8">
@@ -93,12 +141,15 @@ def build_html(matches, rejections, log, profile, scanned: int) -> str:
 <div class="sub">Daily scan for Ahmed Darwish &middot; {today}</div>
 <div class="stats">
 <div class="stat"><b>{scanned}</b><span>scanned</span></div>
-<div class="stat"><b>{len(matches)}</b><span>new matches</span></div>
+<div class="stat"><b>{total}</b><span>new matches</span></div>
 <div class="stat"><b>{len(rejections)}</b><span>filtered out</span></div>
 <div class="stat"><b>{profile.min_score}</b><span>score floor</span></div>
 </div>
-<h2>Worth your time</h2>
-{''.join(cards)}
+{''.join(sections)}
+<h2>Interview yield</h2>
+{yield_block}
+<h2>Source health</h2>
+{health_block}
 <h2>Filtered out, and why</h2>
 {rej_rows}
 <footer>Sources: {e(' · '.join(log))}<br>
@@ -106,22 +157,48 @@ This tool finds and ranks. It never applies for you — you open the link and se
 </div></body></html>"""
 
 
-def build_markdown(matches, rejections, log, profile, scanned: int) -> str:
+def build_markdown(by_track, rejections, log, profile, scanned, health=(), yields=()) -> str:
+    from radar.tracks import TRACK_ORDER, TRACK_LABELS, TRACK_NOTE
     today = date.today().isoformat()
+    total = sum(len(v) for v in by_track.values())
     out = [f"## Job Radar — {today}", "",
-           f"**{scanned}** scanned · **{len(matches)}** new matches · **{len(rejections)}** filtered out", ""]
+           f"**{scanned}** scanned · **{total}** new matches · **{len(rejections)}** filtered out", ""]
 
-    if matches:
-        out.append("### Worth your time\n")
-        for j in matches:
-            out.append(f"**[{j['title']}]({j['url']})** — {j['company']}")
-            out.append(f"`{j['score']}` · {j['location'] or 'location not stated'} · via {j['source']}")
-            out.append(f"Send: **{_cv(profile, j['track'])}** ({_track_label(profile, j['track'])})")
-            if j["reasons"]:
-                out.append(f"_{j['reasons']}_")
-            out.append("")
+    if total:
+        for rank, track in enumerate(TRACK_ORDER, start=1):
+            rows = by_track.get(track) or []
+            if not rows:
+                continue
+            out.append(f"### {rank}. {TRACK_LABELS[track]}")
+            out.append(f"_{TRACK_NOTE[track]}_\n")
+            for j in rows:
+                out.append(f"**[{j['title']}]({j['url']})** — {j['company']}")
+                out.append(f"`{j['score']}` · {j['location'] or 'location not stated'} · via {j['source']}")
+                out.append(f"Send: **{_cv(profile, j['track'])}** ({_track_label(profile, j['track'])})")
+                if j["reasons"]:
+                    out.append(f"_{j['reasons']}_")
+                out.append("")
     else:
         out.append("_No new matches today._\n")
+
+    applied_rows = [y for y in yields if y["applied"]]
+    if applied_rows:
+        out += ["### Interview yield", "",
+                "| source | surfaced | applied | interviews | offers | rate |",
+                "|---|---|---|---|---|---|"]
+        for y in applied_rows:
+            rate = "—" if y["rate"] is None else format(y["rate"], ".0%")
+            out.append(f"| {y['source']} | {y['surfaced']} | {y['applied']} | "
+                       f"{y['interviews']} | {y['offers']} | {rate} |")
+        out.append("")
+
+    broken = [h for h in health if (h["consecutive_fails"] or 0) > 0]
+    if broken:
+        out.append("### ⚠️ Sources needing attention\n")
+        for h in broken:
+            out.append(f"- **{h['source']}** — {h['note']} "
+                       f"({h['consecutive_fails']} run(s) in a row)")
+        out.append("")
 
     if rejections:
         out.append("<details><summary>Filtered out, and why</summary>\n")
