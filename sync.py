@@ -22,8 +22,10 @@ FEED = Path(__file__).resolve().parent / "reports" / "latest.json"
 
 
 def main() -> int:
-    base = (os.environ.get("CAREER_API_URL") or "").rstrip("/")
-    secret = os.environ.get("CAREER_SYNC_SECRET") or ""
+    base = (os.environ.get("CAREER_API_URL") or "").strip().rstrip("/")
+    # .strip(): a secret pasted from a terminal or a password manager very often
+    # carries a trailing newline. That is not a different secret, so do not fail on it.
+    secret = (os.environ.get("CAREER_SYNC_SECRET") or "").strip()
     if not base or not secret:
         print("sync: CAREER_API_URL / CAREER_SYNC_SECRET not set — skipping")
         return 0

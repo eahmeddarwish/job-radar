@@ -95,8 +95,10 @@ def company_tokens(name: str) -> list[str]:
 
 
 def main() -> int:
-    base = (os.environ.get("CAREER_API_URL") or "").rstrip("/")
-    secret = os.environ.get("CAREER_SYNC_SECRET") or ""
+    base = (os.environ.get("CAREER_API_URL") or "").strip().rstrip("/")
+    # .strip(): a secret pasted from a terminal or a password manager very often
+    # carries a trailing newline. That is not a different secret, so do not fail on it.
+    secret = (os.environ.get("CAREER_SYNC_SECRET") or "").strip()
     host = os.environ.get("MAIL_HOST") or "imap.gmail.com"
     user = os.environ.get("MAIL_USER") or ""
     password = os.environ.get("MAIL_PASSWORD") or ""
