@@ -1,62 +1,62 @@
 ## Job Radar — 2026-09-19
 
-**372** scanned · **0** new matches · **40** filtered out
+**374** scanned · **0** new matches · **40** filtered out
 
 _No new matches today._
 
 ### ⚠️ Sources needing attention
 
-- **institution/gust** — unreachable: HTTPError: HTTP Error 403: Forbidden (4 run(s) in a row)
-- **institution/ack** — unreachable: URLError: <urlopen error [Errno -2] Name or service not known> (3 run(s) in a row)
+- **institution/gust** — unreachable: HTTPError: HTTP Error 403: Forbidden (5 run(s) in a row)
+- **institution/ack** — unreachable: URLError: <urlopen error [Errno -2] Name or service not known> (4 run(s) in a row)
 - **institution/kcst** — unreachable: TimeoutError: The read operation timed out (1 run(s) in a row)
 - **institution/paaet** — unreachable: HTTPError: HTTP Error 404: Not Found (1 run(s) in a row)
 
 <details><summary>Filtered out, and why</summary>
 
-- **Junior Data Analyst** — HiredBuddy · work_authorisation: matched "must be legally authorized to work in the united states"
-- **Social-Media Werkstudentin (m/w/d) für Mainwebsolutions & Closery, Würzburg vor Ort** — Mainwebsolutions · location: "Würzburg" is outside his work radius
-- **IT-Systemadministrator:in (m/w/d)** — Brandenburger Holding GmbH · location: "Landau" is outside his work radius
-- **Mitarbeiter:in IT-Support & Systembetreuung (m/w/d)** — Brandenburger Holding GmbH · location: "Landau" is outside his work radius
-- **Steuerberater (m/w/d) in Andernach, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€** — Taxtalente.de · location: "Andernach" is outside his work radius
-- **Steuerberater (m/w/d) in Eppenbrunn, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€** — Taxtalente.de · location: "Eppenbrunn" is outside his work radius
-- **Steuerberater (m/w/d) in Frankfurt am Main, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€** — Taxtalente.de · location: "Frankfurt am Main" is outside his work radius
-- **Steuerberater (m/w/d) in Reken, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€** — Taxtalente.de · location: "Reken" is outside his work radius
-- **Steuerberater (m/w/d) in Flöha, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€** — Taxtalente.de · location: "Flöha" is outside his work radius
-- **Steuerberater (m/w/d) in Seth, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€** — Taxtalente.de · location: "Seth" is outside his work radius
-- **Steuerberater (m/w/d) in Lieser, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€** — Taxtalente.de · location: "Lieser" is outside his work radius
-- **Steuerberater (m/w/d) in Berghaupten, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€** — Taxtalente.de · location: "Berghaupten" is outside his work radius
-- **Electrician (m/f/d)** — Sereact GmbH · location: "Stuttgart Schockenriedstr. 17" is outside his work radius
-- **Business Development Representative - SMB (English-speaking)** — Secfix · seniority_mismatch: matched "internship"
-- **Working Student Graphic Designer** — Almedia · location: "Berlin" is outside his work radius
-- **Creator Partnerships Manager (German-speaking)** — Almedia · location: "Berlin" is outside his work radius
-- **Marketing Communications Manager (B2B)** — Almedia · location: "Berlin" is outside his work radius
-- **Senior Accountant (m/f/d)** — Yepoda · location: "Berlin" is outside his work radius
-- **Accountant (m/f/d)** — Yepoda · location: "Berlin" is outside his work radius
-- **Product Lead - AI Neobank App** — Bjak · location: "Germany" is outside his work radius
-- **Software Engineer - Simulation Platform** — Proxima Fusion GmbH · location: "Munich" is outside his work radius
-- **Senior Simulation Engineer, Computational Physics** — Proxima Fusion GmbH · location: "Munich" is outside his work radius
-- **Stellarator Integration Engineer** — Proxima Fusion GmbH · location: "Munich" is outside his work radius
-- **Senior Android Developer (f/m/d)** — adjoe · location: "Hamburg" is outside his work radius
-- **Praktikant (m/w/d) – Produktentwicklung & Datenaufbereitung** — CERTUSS GmbH · location: "Krefeld, Nordrhein-Westfalen, Deutschland" is outside his work radius
-- **E-Mail Marketing Manager** — Gusti Leder GmbH · location: "Rostock, Mecklenburg-Vorpommern, Deutschland" is outside his work radius
-- **Verkäufer:in - Werkstudent (m/w/d) (3)** — Gusti Leder GmbH · location: "Trier, Rheinland-Pfalz, Deutschland" is outside his work radius
-- **Strategic Valuation & Modeling - Senior Manager** — EIGHT ADVISORY SAS · location: "Frankfurt am Main, Hesse, Allemagne" is outside his work radius
-- **Senior Controller  (m/w/d)** — SCHAEFER GmbH · location: "Sigmaringen, Baden-Württemberg, Deutschland" is outside his work radius
-- **Pizzabäcker / Pizzaiolo (m/w/d) NRW** — 60 seconds to napoli Holding GmbH · location: "bundesweit, Nordrhein-Westfalen, Deutschland" is outside his work radius
-- **Pizzabäcker / Pizzaiolo (m/w/d) Norden** — 60 seconds to napoli Holding GmbH · location: "bundesweit, Nordrhein-Westfalen, Deutschland" is outside his work radius
-- **Pizzabäcker / Pizzaiolo (m/w/d) NRW 2** — 60 seconds to napoli Holding GmbH · location: "bundesweit, Nordrhein-Westfalen, Deutschland" is outside his work radius
-- **Pizzabäcker / Pizzaiolo (m/w/d) Osten** — 60 seconds to napoli Holding GmbH · location: "bundesweit, Nordrhein-Westfalen, Deutschland" is outside his work radius
-- **Pizzabäcker / Pizzaiolo (m/w/d) Südwest** — 60 seconds to napoli Holding GmbH · location: "bundesweit, Nordrhein-Westfalen, Deutschland" is outside his work radius
-- **Werkstudent Go-To-Market & Partner Management (m/w/d)** — Bees & Bears GmbH · location: "Berlin" is outside his work radius
-- **Performance Creative Strategist - Social & Paid (w/m/d)** — Zasta Karriere · location: "Berlin" is outside his work radius
-- **Chief of Staff (m/w/d)** — Zasta Karriere · location: "Berlin" is outside his work radius
-- **Teamleiter Accounting (m/w/d)** — Sereni Deutschland GmbH · location: "Düsseldorf" is outside his work radius
-- **Sales Manager – Gewerbliche Photovoltaik (m/w/d)** — heimWatt GmbH · location: "Köln Aachener Str." is outside his work radius
-- **Elektriker Photovoltaik Großprojekte (m/w/d)** — heimWatt GmbH · location: "Köln Aachener Str." is outside his work radius
+- **Senior .NET Full-stack Developer** — Lemon.io · location: "Northern America, LATAM, Europe, APAC" is outside his work radius
+- **Procurement Manager** — Andercore · location: "Berlin" is outside his work radius
+- **Senior Finance Manager (f/m/x)** — Lemon Markets · location: "Germany  (Hybrid)" is outside his work radius
+- **Cryogenics Engineer (f/m/d)** — Focused · location: "Darmstadt, DE" is outside his work radius
+- **Praktikum Fundraising und Campaigning** — GermanZero e.V. · location: "Berlin, Berlin, Deutschland" is outside his work radius
+- **Logistiker im Bereich Maintenance / Service (w/m/d)** — encontec GmbH · location: "Oberkochen , Baden-Württemberg, Deutschland" is outside his work radius
+- **Qualitätsmanager (m/w/d) Supply Chain** — encontec GmbH · location: "Backnang, Baden-Württemberg, Deutschland" is outside his work radius
+- **Training-Manager (m/w/d) Service** — encontec GmbH · location: "Jena, Thüringen, Deutschland" is outside his work radius
+- **Trainee Online-Marketing-Manager/-in - Vollzeit (m/w/d)** — Conesso · location: "Köln, Nordrhein-Westfalen, Deutschland" is outside his work radius
+- **Trainee Online-Marketing-Manager/-in - Vollzeit (m/w/d)** — Conesso · location: "Köln, Nordrhein-Westfalen, Deutschland" is outside his work radius
+- **Service Techniker:in Photovoltaik (f/m/x)** — Otovo · location: "Berlin, Berlin, Germany" is outside his work radius
+- **Service Techniker:in Photovoltaik (f/m/d)** — Otovo · location: "Berlin, Berlin, Germany" is outside his work radius
+- **Head of Public Affairs (Germany & EU) @ AI Infrastructure Venture, Dresden** — atlantic.vc · location: "Dresden, Sachsen, Germany" is outside his work radius
+- **Founder Associate (gn) @ AI Venture, Berlin** — atlantic.vc · seniority_mismatch: matched "internship"
+- **Trainer (m/w/d) für Erwachsene und Kinder (Teilzeit/Minijob)** — Ultimate Gym Königsbrunn · location: "Königsbrunn, Bayern, Deutschland" is outside his work radius
+- **Kampfsporttrainer/in (Minijob)** — Ultimate Gym Königsbrunn · location: "Augsburg, Bayern, Deutschland" is outside his work radius
+- **SAP Procurement & Supply Chain Transformation Consultant - Life Sciences Germany** — Infosys Consulting Europe · location: "Munich, Germany" is outside his work radius
+- **Group Account Director Automotive (w/m/d)** — We Are Social 1 · location: "Munich, Germany" is outside his work radius
+- **Azure Infrastructure Engineer (m/w/d) in Köln** — GRÜNE'S LEIHHÄUSER GmbH & Co. KG · location: "Büro Köln" is outside his work radius
+- **Azure Infrastructure Engineer (m/w/d) in Frankfurt** — GRÜNE'S LEIHHÄUSER GmbH & Co. KG · location: "Büro Frankfurt" is outside his work radius
+- **(Senior) Accountant (all genders)** — YOSHI · location: "Berlin" is outside his work radius
+- **Senior Business Development & Strategy Manager (m/w/d)** — Studyflix Gmbh · location: "Augsburg" is outside his work radius
+- **Teamleiter IT Infrastructure (m/w/d)** — IPG Automotive - Personio · location: "Karlsruhe Fautenbruchstraße" is outside his work radius
+- **Praktikant/Werkstudent „Forschung & Innovation – Datengetriebene Entwicklung autonomer Systeme“ (m/w/d)** — IPG Automotive - Personio · location: "Karlsruhe Fautenbruchstraße" is outside his work radius
+- **Praktikant/Werkstudent „Automatisiertes Infotainment Testing“ (m/w/d)** — IPG Automotive - Personio · location: "Stuttgart" is outside his work radius
+- **Praktikant/Werkstudent „AI based passenger simulation“ (m/w/d)** — IPG Automotive - Personio · location: "Stuttgart" is outside his work radius
+- **(Senior) Compliance & Legal Manager (m/w/d)** — IPG Automotive - Personio · location: "Karlsruhe Fautenbruchstraße" is outside his work radius
+- **Data Protection Specialist (m/w/d)** — Coeo Group Gmbh · location: "Dormagen (Kieler Straße 16)" is outside his work radius
+- **Channel Account Executive - Surveillance (m/w/d)** — Synology - Personio · location: "Düsseldorf" is outside his work radius
+- **Werkstudent:in Public Sector Consulting / Projektmanagement** — Imap Gmbh 1 · location: "Düsseldorf" is outside his work radius
+- **Senior Fullstack Developer (m/w/d)** — Techpilot · location: "München" is outside his work radius
+- **Chemical Laboratory Assistant / Lab Technician (f/m/d) Analytics & Synthesis** — Career Site bei aevoloop - Personio · location: "Leipzig" is outside his work radius
+- **Senior PR Manager (m/w/d) – Remote oder Berlin** — Getpress Gmbh · location: "Berlin" is outside his work radius
+- **IT-Systemadministrator (m/w/d) – Windows Server** — Reservix GmbH · location: "Frankfurt am Main" is outside his work radius
+- **Working Student - Junior Solutions Consultant (m/f/d)** — AMX Consulting - Personio · seniority_mismatch: matched "internship"
+- **Founding Engineer Intern** — SCAILE Technologies GmbH · seniority_mismatch: matched "internship"
+- **Business / Industry Co-Founder (F/M/D) Role At Startup Guardsphere** — SouthwestX · location: "Saarbrücken" is outside his work radius
+- **Account Executive | Fund Administration | VC | DE (f/m/d)** — bunch · location: "Germany" is outside his work radius
+- **Talent Acquisition Manager | Tech (f/m/d)** — bunch · location: "Berlin" is outside his work radius
+- **(Senior) Full-Stack Engineer | Frontend-leaning | Platform Team (f/m/d) | Berlin** — bunch · location: "Berlin" is outside his work radius
 
 </details>
 
 ---
-Sources: remotive: 16 jobs · remoteok: 99 jobs · arbeitnow: 250 jobs · ashby/The-Flex: 7 jobs · institution/auk: unchanged · institution/au-kuwait: unchanged · institution/ack: failed · institution/gust: failed · institution/kuwait-university: unchanged · institution/bsk: unchanged · institution/aum: unchanged · institution/box-hill: unchanged · institution/ask: unchanged
+Sources: remotive: 17 jobs · remoteok: 99 jobs · arbeitnow: 250 jobs · ashby/The-Flex: 7 jobs · institution/auk: unchanged · institution/au-kuwait: unchanged · institution/ack: failed · institution/gust: failed · institution/kuwait-university: unchanged · institution/bsk: unchanged · institution/aum: unchanged · institution/box-hill: unchanged · institution/ask: changed (1)
 
 _Finds and ranks only. It never applies for you._
