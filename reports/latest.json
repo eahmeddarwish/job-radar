@@ -1,0 +1,453 @@
+{
+  "generated_at": "2026-09-19T05:15:03+00:00",
+  "date": "2026-09-19",
+  "scanned": 372,
+  "min_score": 45,
+  "candidate": {
+    "name": "Ahmed Darwish",
+    "based_in": "Kuwait",
+    "timezone": "GMT+3",
+    "work_authorisation": [
+      "Kuwait"
+    ],
+    "open_to": [
+      "remote-worldwide",
+      "remote-emea",
+      "kuwait",
+      "gcc"
+    ]
+  },
+  "tracks": [
+    {
+      "id": "GCC_SPONSORED",
+      "label": "GCC employer — may sponsor residency",
+      "note": "Highest priority: these are the roles that can fix the residency, not just the income.",
+      "jobs": []
+    },
+    {
+      "id": "INSTITUTIONAL",
+      "label": "Universities, colleges and schools",
+      "note": "Academic and training routes. Most are in the Gulf and sponsor; check each one.",
+      "jobs": []
+    },
+    {
+      "id": "REMOTE_FOREIGN",
+      "label": "Remote income — no residency",
+      "note": "Good money, foreign employer. Does not provide Kuwaiti residency on its own.",
+      "jobs": [
+        {
+          "uid": "arbeitnow:d3bcee2c2ebb5b41",
+          "title": "Machine Learning Engineer II - Behavioral Security Products",
+          "company": "Abnormalsecurity",
+          "location": "",
+          "url": "https://www.arbeitnow.co.uk/jobs/companies/abnormalsecurity/machine-learning-engineer-ii-behavioral-security-products-62476",
+          "source": "arbeitnow",
+          "score": 51,
+          "cv_track": "ai-software",
+          "cv_file": "Ahmed_Darwish_AI_Software_Engineer_EN.pdf",
+          "cv_label": "AI & Software Engineer",
+          "reasons": "title matches 'machine learning' · core skills: python, pytorch, tensorflow, machine learning · also mentions: edge",
+          "posted_at": "1789692935",
+          "first_seen": "2026-09-18T08:27:14+00:00",
+          "status": "shortlisted",
+          "employment_track": "",
+          "applied_at": "",
+          "outcome": "",
+          "excerpt": "&lt;p&gt;Abnormal AI is looking for a Machine Learning Engineer to join the Account Takeover Detection team. At Abnormal, we protect our customers against nefarious adversaries who are constantly evolving their techniques and tactics to outwit and undermine the traditional approaches to Security. Abnormal is recognized as a top cybersecurity startup (Leader in the 2024 Gartner Magic Quadrant for Email Security Platforms), securing a Series D funding of $250 million at a $5.1 billion valuation in August 2024. Our 100% YoY growth in annual recurring revenue highlights the trust our behavioral AI system has earned in protecting over 20+% of the Fortune 500. We continue to grow and innovate to stay ahead of the evolving threat landscape.&lt;/p&gt;\n&lt;p&gt;&lt;strong&gt;About the Role&lt;/strong&gt;&lt;/p&gt;\n&lt;p&gt;In a landscape where a single successful attack can lead to financial losses of millions of dollars, the Account Takeover team (ATO) is at the forefront of customer protection, playing a central role in building systems that can detect malicious activity and protect customers from account takeovers. The Account Takeover Detection team’s mission is to leverage cutting-edge"
+        },
+        {
+          "uid": "arbeitnow:e66d57cafec78d17",
+          "title": "Software Engineer - Backend - Behavioral Security Products",
+          "company": "Abnormalsecurity",
+          "location": "",
+          "url": "https://www.arbeitnow.co.uk/jobs/companies/abnormalsecurity/software-engineer-backend-behavioral-security-products-256373",
+          "source": "arbeitnow",
+          "score": 47,
+          "cv_track": "ai-software",
+          "cv_file": "Ahmed_Darwish_AI_Software_Engineer_EN.pdf",
+          "cv_label": "AI & Software Engineer",
+          "reasons": "title matches 'software engineer' · core skills: python, llm, openai · also mentions: docker, edge",
+          "posted_at": "1789692935",
+          "first_seen": "2026-09-18T08:27:14+00:00",
+          "status": "shortlisted",
+          "employment_track": "",
+          "applied_at": "",
+          "outcome": "",
+          "excerpt": "&lt;p&gt;At Abnormal AI, we protect our customers against nefarious adversaries who are constantly evolving their techniques and tactics to outwit and undermine the traditional approaches to Security.&lt;/p&gt;\n&lt;p&gt;Abnormal is recognized as a top cybersecurity startup (Leader in the 2025 Gartner Magic Quadrant for Email Security Platforms), securing a Series D funding of $250 million at a $5.1 billion valuation in August 2024.&lt;/p&gt;\n&lt;h2&gt;About The Team&lt;/h2&gt;\n&lt;p&gt;This team owns the end-to-end development and operation of the infrastructure, ML models, AI agents, customer-facing APIs, and internal tools that power Abnormal&#39;s Identity Threat Protection (ITP) product. Our work is central to detecting malicious behavior and protecting customers from advanced identity-based attacks — including account takeover, identity spoofing, data leakage, and other high-impact threats.&lt;/p&gt;\n&lt;h2&gt;About The Role&lt;/h2&gt;\n&lt;p&gt;We are looking for a Software Engineer to help build and evolve our platform as it scales to meet expanding product requirements. This role blends hands-on backend systems development with growing ownership of features and production sy"
+        }
+      ]
+    }
+  ],
+  "cv_tracks": [
+    {
+      "id": "ai-software",
+      "label": "AI & Software Engineer",
+      "cv": "Ahmed_Darwish_AI_Software_Engineer_EN.pdf"
+    },
+    {
+      "id": "embedded-iot",
+      "label": "Embedded & IoT Engineer",
+      "cv": "Ahmed_Darwish_Embedded_IoT_Engineer_EN.pdf"
+    },
+    {
+      "id": "technical-trainer",
+      "label": "Technical Trainer",
+      "cv": "Ahmed_Darwish_Technical_Trainer_EN.pdf"
+    },
+    {
+      "id": "lecturer",
+      "label": "Lecturer / Lab Instructor",
+      "cv": "Ahmed_Darwish_Lecturer_Academic_EN.pdf"
+    }
+  ],
+  "rejected": [
+    {
+      "title": "Responsable Systèmes d'Information & Outils internes H/F",
+      "company": "N2JSoft",
+      "why": "location: \"Lyon, Auvergne-Rhône-Alpes, France\" is outside his work radius"
+    },
+    {
+      "title": "Account Manager - B2B SaaS",
+      "company": "N2JSoft",
+      "why": "location: \"Montagnat, Auvergne-Rhône-Alpes, France\" is outside his work radius"
+    },
+    {
+      "title": "Customer Service Representative - Paris",
+      "company": "Sennasearch Recruitment",
+      "why": "location: \"Paris, Île-de-France, Frankrijk\" is outside his work radius"
+    },
+    {
+      "title": "Directeur Adjoint de Restaurant (F/H) - Aix-en-Provence",
+      "company": "La Manufacture RH",
+      "why": "location: \"issy les moulineaux , Île-de-France, France\" is outside his work radius"
+    },
+    {
+      "title": "Manager de Restaurant (H/F) - Douai (59)",
+      "company": "La Manufacture RH",
+      "why": "location: \"Douai, Hauts-de-France, France\" is outside his work radius"
+    },
+    {
+      "title": "Responsable Ressources Humaines - H/F - Paris",
+      "company": "La Manufacture RH",
+      "why": "location: \"Puteaux, Île-de-France, France\" is outside his work radius"
+    },
+    {
+      "title": "Sales Advisor Saint Tropez",
+      "company": "Boggi Milano",
+      "why": "location: \"Saint Tropez, Provence-Alpes-Côte-d’Azur, France\" is outside his work radius"
+    },
+    {
+      "title": "Sales Advisor - Villefontaine",
+      "company": "Boggi Milano",
+      "why": "location: \"Villefontaine, Auvergne-Rhône-Alpes, France\" is outside his work radius"
+    },
+    {
+      "title": "Satcom Consultant Engineer",
+      "company": "Novaspace",
+      "why": "location: \"Toulouse, France\" is outside his work radius"
+    },
+    {
+      "title": "Outbound GTM Engineer",
+      "company": "Didomi",
+      "why": "location: \"Paris,France\" is outside his work radius"
+    },
+    {
+      "title": "Key Account Manager",
+      "company": "Didomi",
+      "why": "location: \"Paris,France\" is outside his work radius"
+    },
+    {
+      "title": "Customer Support Officer (M/F/D) - German Speaking - Based in Paris",
+      "company": "WINAMAX",
+      "why": "location: \"Paris\" is outside his work radius"
+    },
+    {
+      "title": "Customer Support Officer (M/F/D)",
+      "company": "WINAMAX",
+      "why": "location: \"Paris\" is outside his work radius"
+    },
+    {
+      "title": "Solution Innovation Analyst",
+      "company": "Pigment",
+      "why": "location: \"Paris\" is outside his work radius"
+    },
+    {
+      "title": "Solution Consultant, Supply Chain - Paris",
+      "company": "Pigment",
+      "why": "location: \"Paris\" is outside his work radius"
+    },
+    {
+      "title": "Solution Consultant, Financial Consolidation - Paris",
+      "company": "Pigment",
+      "why": "location: \"Paris\" is outside his work radius"
+    },
+    {
+      "title": "Solution Consultant - Paris",
+      "company": "Pigment",
+      "why": "location: \"Paris\" is outside his work radius"
+    },
+    {
+      "title": "Optimisation AI Scientist",
+      "company": "Pigment",
+      "why": "location: \"London or Paris\" is outside his work radius"
+    },
+    {
+      "title": "Head of Brand Marketing",
+      "company": "Pigment",
+      "why": "location: \"London or Paris\" is outside his work radius"
+    },
+    {
+      "title": "Finance Systems Engineer",
+      "company": "Pigment",
+      "why": "location: \"Paris\" is outside his work radius"
+    },
+    {
+      "title": "EPM Technical Account Manager - Paris",
+      "company": "Pigment",
+      "why": "location: \"Paris\" is outside his work radius"
+    },
+    {
+      "title": "Engineering Program Manager",
+      "company": "Pigment",
+      "why": "location: \"France\" is outside his work radius"
+    },
+    {
+      "title": "Design Manager",
+      "company": "Pigment",
+      "why": "location: \"France\" is outside his work radius"
+    },
+    {
+      "title": "Customer Success Operations Manager",
+      "company": "Pigment",
+      "why": "location: \"Paris\" is outside his work radius"
+    },
+    {
+      "title": "Customer Success Manager - French Mid Market",
+      "company": "Pigment",
+      "why": "location: \"Paris\" is outside his work radius"
+    },
+    {
+      "title": "Customer Success Manager",
+      "company": "Pigment",
+      "why": "location: \"Paris\" is outside his work radius"
+    },
+    {
+      "title": "Customer Marketing Manager",
+      "company": "Pigment",
+      "why": "location: \"Paris\" is outside his work radius"
+    },
+    {
+      "title": "Business Development/Sales & Growth Marketing North America (6-month Internship)",
+      "company": "Pigment",
+      "why": "seniority_mismatch: matched \"internship\""
+    },
+    {
+      "title": "Aircraft Painter",
+      "company": "Tsmg",
+      "why": "location: \"Toulouse\" is outside his work radius"
+    },
+    {
+      "title": "Head of Alliances - Manager (F/H)",
+      "company": "Vmlenterprisesolutions",
+      "why": "location: \"Paris\" is outside his work radius"
+    },
+    {
+      "title": "Planneur Stratégique Junior – H/F – STAGE",
+      "company": "Wundermanthompson",
+      "why": "location: \"Paris\" is outside his work radius"
+    },
+    {
+      "title": "Planneur Stratégique Junior – H/F – stage",
+      "company": "Wundermanthompson",
+      "why": "location: \"Paris\" is outside his work radius"
+    },
+    {
+      "title": "Head of Alliances - Manager (F/H)",
+      "company": "Wundermanthompson",
+      "why": "location: \"Paris\" is outside his work radius"
+    },
+    {
+      "title": "Responsable d'atelier de production et amélioration continue (F/H)",
+      "company": "Signode",
+      "why": "location: \"Fontaine Les Luxeuil, Bourgogne-Franche-Comté, France\" is outside his work radius"
+    },
+    {
+      "title": "Responsable de Boutique Lille",
+      "company": "My Jewellery",
+      "why": "location: \"Lille, Hauts-de-France, Frankrijk\" is outside his work radius"
+    },
+    {
+      "title": "Customer Care Travel Specialist (Care+)",
+      "company": "Swile",
+      "why": "location: \"Montpellier, France\" is outside his work radius"
+    },
+    {
+      "title": "Customer Care Specialist B2C",
+      "company": "Swile",
+      "why": "location: \"Montpellier, France\" is outside his work radius"
+    },
+    {
+      "title": "STAGE - ASSISTANT(E) VISUAL DESIGN CREATION (H/F) - NOVEMBRE 2026 (6 MOIS)",
+      "company": "JACQUEMUS",
+      "why": "location: \"Paris HQ, Île de France\" is outside his work radius"
+    },
+    {
+      "title": "STAGE - ASSISTANT(E) VIP (H/F) - SEPTEMBRE 2026",
+      "company": "JACQUEMUS",
+      "why": "location: \"Paris HQ, Île de France\" is outside his work radius"
+    },
+    {
+      "title": "Stage - Assistant(E) Operations Retail  & Showroom Wholesale (H/F)",
+      "company": "JACQUEMUS",
+      "why": "location: \"Paris HQ, Île de France\" is outside his work radius"
+    }
+  ],
+  "sources": [
+    {
+      "source": "institution/gust",
+      "last_count": null,
+      "note": "unreachable: HTTPError: HTTP Error 403: Forbidden",
+      "fails": 2,
+      "last_success": ""
+    },
+    {
+      "source": "institution/ack",
+      "last_count": null,
+      "note": "unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
+      "fails": 1,
+      "last_success": ""
+    },
+    {
+      "source": "institution/kcst",
+      "last_count": null,
+      "note": "unreachable: TimeoutError: The read operation timed out",
+      "fails": 1,
+      "last_success": ""
+    },
+    {
+      "source": "institution/paaet",
+      "last_count": null,
+      "note": "unreachable: HTTPError: HTTP Error 404: Not Found",
+      "fails": 1,
+      "last_success": ""
+    },
+    {
+      "source": "arbeitnow",
+      "last_count": 250,
+      "note": "250 jobs",
+      "fails": 0,
+      "last_success": "2026-09-19T05:14:45+00:00"
+    },
+    {
+      "source": "ashby/The-Flex",
+      "last_count": 7,
+      "note": "7 jobs",
+      "fails": 0,
+      "last_success": "2026-09-19T05:14:45+00:00"
+    },
+    {
+      "source": "institution/ask",
+      "last_count": 0,
+      "note": "no JSON-LD; watching for page changes",
+      "fails": 0,
+      "last_success": "2026-09-19T05:15:00+00:00"
+    },
+    {
+      "source": "institution/au-kuwait",
+      "last_count": 0,
+      "note": "no JSON-LD; watching for page changes",
+      "fails": 0,
+      "last_success": "2026-09-19T05:14:48+00:00"
+    },
+    {
+      "source": "institution/auk",
+      "last_count": 0,
+      "note": "no JSON-LD; watching for page changes",
+      "fails": 0,
+      "last_success": "2026-09-19T05:14:46+00:00"
+    },
+    {
+      "source": "institution/aum",
+      "last_count": 0,
+      "note": "no JSON-LD; watching for page changes",
+      "fails": 0,
+      "last_success": "2026-09-19T05:14:54+00:00"
+    },
+    {
+      "source": "institution/box-hill",
+      "last_count": 0,
+      "note": "no JSON-LD; watching for page changes",
+      "fails": 0,
+      "last_success": "2026-09-19T05:14:58+00:00"
+    },
+    {
+      "source": "institution/bsk",
+      "last_count": 0,
+      "note": "no JSON-LD; watching for page changes",
+      "fails": 0,
+      "last_success": "2026-09-19T05:14:51+00:00"
+    },
+    {
+      "source": "institution/kuwait-university",
+      "last_count": 0,
+      "note": "no JSON-LD; watching for page changes",
+      "fails": 0,
+      "last_success": "2026-09-19T05:14:49+00:00"
+    },
+    {
+      "source": "remoteok",
+      "last_count": 99,
+      "note": "99 jobs",
+      "fails": 0,
+      "last_success": "2026-09-19T05:14:45+00:00"
+    },
+    {
+      "source": "remotive",
+      "last_count": 16,
+      "note": "16 jobs",
+      "fails": 0,
+      "last_success": "2026-09-19T05:14:45+00:00"
+    }
+  ],
+  "yield": [
+    {
+      "source": "arbeitnow",
+      "surfaced": 78,
+      "applied": 0,
+      "interviews": 0,
+      "offers": 0,
+      "rate": null
+    },
+    {
+      "source": "remoteok",
+      "surfaced": 40,
+      "applied": 0,
+      "interviews": 0,
+      "offers": 0,
+      "rate": null
+    },
+    {
+      "source": "remotive",
+      "surfaced": 5,
+      "applied": 0,
+      "interviews": 0,
+      "offers": 0,
+      "rate": null
+    }
+  ],
+  "log": [
+    "remotive: 16 jobs",
+    "remoteok: 99 jobs",
+    "arbeitnow: 250 jobs",
+    "ashby/The-Flex: 7 jobs",
+    "institution/auk: baselined",
+    "institution/au-kuwait: baselined",
+    "institution/ack: failed",
+    "institution/gust: failed",
+    "institution/kuwait-university: baselined",
+    "institution/bsk: baselined",
+    "institution/aum: unchanged",
+    "institution/box-hill: unchanged",
+    "institution/ask: unchanged"
+  ]
+}
