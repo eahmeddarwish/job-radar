@@ -1,0 +1,23 @@
+name: mailbox watch
+
+on:
+  schedule:
+    - cron: "0 6,18 * * *"   # 09:00 and 21:00 Kuwait time
+  workflow_dispatch:
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Look for replies to applications
+        env:
+          CAREER_API_URL: ${{ secrets.CAREER_API_URL }}
+          CAREER_SYNC_SECRET: ${{ secrets.CAREER_SYNC_SECRET }}
+          MAIL_HOST: ${{ secrets.MAIL_HOST }}
+          MAIL_USER: ${{ secrets.MAIL_USER }}
+          MAIL_PASSWORD: ${{ secrets.MAIL_PASSWORD }}
+        run: python mailwatch.py

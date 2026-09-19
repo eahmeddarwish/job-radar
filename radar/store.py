@@ -123,6 +123,16 @@ class Store:
             (min_score, limit),
         ).fetchall()
 
+    def all_matches(self, min_score: int, days: int = 30) -> list:
+        """Everything still worth showing — the dashboard browses history, not just today."""
+        return self.conn.execute(
+            """SELECT * FROM jobs
+               WHERE rejected = 0 AND score >= ?
+                 AND first_seen >= date('now', ?)
+               ORDER BY score DESC, first_seen DESC""",
+            (min_score, f"-{int(days)} days"),
+        ).fetchall()
+
     def unreported_rejections(self, limit: int = 40) -> list[sqlite3.Row]:
         return self.conn.execute(
             """SELECT * FROM jobs WHERE rejected = 1 AND reported_on IS NULL

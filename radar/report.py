@@ -209,3 +209,67 @@ def build_markdown(by_track, rejections, log, profile, scanned, health=(), yield
     out += ["", "---", f"Sources: {' · '.join(log)}", "",
             "_Finds and ranks only. It never applies for you._"]
     return "\n".join(out)
+
+
+def build_json(matches, rejections, log, profile, scanned, health=(), yields=()) -> str:
+    """The dashboard's data feed.
+
+    Written as a separate artefact rather than scraped back out of the HTML,
+    because a report meant for a human and a feed meant for a program should not
+    be the same document.
+    """
+    import json
+    from datetime import datetime, timezone
+    from radar.tracks import TRACK_ORDER, TRACK_LABELS, TRACK_NOTE
+
+    def job_row(r):
+        return {
+            "uid": r["uid"],
+            "title": r["title"],
+            "company": r["company"],
+            "location": r["location"] or "",
+            "url": r["url"],
+            "source": r["source"],
+            "score": r["score"],
+            "cv_track": r["track"] or "",
+            "cv_file": _cv(profile, r["track"]),
+            "cv_label": _track_label(profile, r["track"]),
+            "reasons": r["reasons"] or "",
+            "posted_at": r["posted_at"] or "",
+            "first_seen": r["first_seen"],
+            "status": r["status"],
+            "employment_track": r["employment_track"] or "",
+            "applied_at": r["applied_at"] or "",
+            "outcome": r["outcome"] or "",
+            "excerpt": (r["description"] or "")[:1200],
+        }
+
+    by_track = {}
+    for r in matches:
+        by_track.setdefault(r["employment_track"] or "REMOTE_FOREIGN", []).append(job_row(r))
+
+    return json.dumps({
+        "generated_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+        "date": date.today().isoformat(),
+        "scanned": scanned,
+        "min_score": profile.min_score,
+        "candidate": profile.candidate,
+        "tracks": [
+            {"id": t, "label": TRACK_LABELS[t], "note": TRACK_NOTE[t], "jobs": by_track.get(t, [])}
+            for t in TRACK_ORDER
+        ],
+        "cv_tracks": [
+            {"id": t["id"], "label": t["label"], "cv": t["cv"]} for t in profile.tracks
+        ],
+        "rejected": [
+            {"title": r["title"], "company": r["company"], "why": r["reject_why"]}
+            for r in rejections
+        ],
+        "sources": [
+            {"source": h["source"], "last_count": h["last_count"], "note": h["note"] or "",
+             "fails": h["consecutive_fails"] or 0, "last_success": h["last_success"] or ""}
+            for h in health
+        ],
+        "yield": list(yields),
+        "log": list(log),
+    }, ensure_ascii=False, indent=2)

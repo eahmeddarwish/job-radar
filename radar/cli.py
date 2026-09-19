@@ -1,6 +1,7 @@
 """Command line. `scan` is the daily job; the rest keep the yield log honest."""
 
 import argparse
+import os
 from datetime import date
 from pathlib import Path
 
@@ -47,16 +48,28 @@ def cmd_scan(args) -> int:
 
         html_doc = report_mod.build_html(by_track, rejections, log, profile, len(jobs), health, yields)
         md_doc = report_mod.build_markdown(by_track, rejections, log, profile, len(jobs), health, yields)
+        # The dashboard browses the last 30 days, not only what is new today.
+        json_doc = report_mod.build_json(store.all_matches(profile.min_score, 30),
+                                         rejections, log, profile, len(jobs), health, yields)
 
         REPORTS.mkdir(exist_ok=True)
         today = date.today().isoformat()
         for name, doc in ((f"{today}.html", html_doc), (f"{today}.md", md_doc),
-                          ("latest.html", html_doc), ("latest.md", md_doc)):
+                          ("latest.html", html_doc), ("latest.md", md_doc),
+                          ("latest.json", json_doc)):
             (REPORTS / name).write_text(doc, encoding="utf-8")
 
         reported = [r["uid"] for rows in by_track.values() for r in rows]
         if not args.dry_run:
             store.mark_reported(reported + [r["uid"] for r in rejections])
+
+        # The workflow runs hourly but should only raise an issue when something
+        # new actually turned up — otherwise it is 24 notifications a day of nothing.
+        gh_out = os.environ.get("GITHUB_OUTPUT")
+        if gh_out:
+            with open(gh_out, "a", encoding="utf-8") as fh:
+                fh.write(f"new_matches={len(reported)}\n")
+                fh.write(f"scanned={len(jobs)}\n")
 
         print(f"scanned {len(jobs)} · new {added} · reported {len(reported)} · filtered {len(rejections)}")
         for track, rows in by_track.items():
