@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-19T05:21:45+00:00",
+  "generated_at": "2026-09-19T09:13:14+00:00",
   "date": "2026-09-19",
   "scanned": 372,
   "min_score": 45,
@@ -102,204 +102,204 @@
   ],
   "rejected": [
     {
-      "title": "Stage - Assistant(E) Coordination Studio (H/F) - Janvier 2027",
-      "company": "JACQUEMUS",
-      "why": "location: \"Paris HQ, Île de France\" is outside his work radius"
+      "title": "Junior Data Analyst",
+      "company": "HiredBuddy",
+      "why": "work_authorisation: matched \"must be legally authorized to work in the united states\""
     },
     {
-      "title": "Stage - Assistant Visuel Merchandising - (H/F) - Septembre 2026 (6 Mois)",
-      "company": "JACQUEMUS",
-      "why": "location: \"Paris HQ, Île de France\" is outside his work radius"
+      "title": "Social-Media Werkstudentin (m/w/d) für Mainwebsolutions & Closery, Würzburg vor Ort",
+      "company": "Mainwebsolutions",
+      "why": "location: \"Würzburg\" is outside his work radius"
     },
     {
-      "title": "Cdi - Responsable Qualite (H/F)",
-      "company": "JACQUEMUS",
-      "why": "location: \"Paris HQ, Île de France\" is outside his work radius"
+      "title": "IT-Systemadministrator:in (m/w/d)",
+      "company": "Brandenburger Holding GmbH",
+      "why": "location: \"Landau\" is outside his work radius"
     },
     {
-      "title": "Cdi - Knitwear Designer - Menswear & Womenswear",
-      "company": "JACQUEMUS",
-      "why": "location: \"Paris\" is outside his work radius"
+      "title": "Mitarbeiter:in IT-Support & Systembetreuung (m/w/d)",
+      "company": "Brandenburger Holding GmbH",
+      "why": "location: \"Landau\" is outside his work radius"
     },
     {
-      "title": "Cdi - Designer Maroquinerie (H/F)",
-      "company": "JACQUEMUS",
-      "why": "location: \"Paris\" is outside his work radius"
+      "title": "Steuerberater (m/w/d) in Andernach, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€",
+      "company": "Taxtalente.de",
+      "why": "location: \"Andernach\" is outside his work radius"
     },
     {
-      "title": "Cdi - 7H – Conseiller De Vente (H/F) – Montaigne",
-      "company": "JACQUEMUS",
-      "why": "location: \"Boutique Montaigne, Paris, Île de France\" is outside his work radius"
+      "title": "Steuerberater (m/w/d) in Eppenbrunn, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€",
+      "company": "Taxtalente.de",
+      "why": "location: \"Eppenbrunn\" is outside his work radius"
     },
     {
-      "title": "Cdd - Coordinateur Adv Wholesale & Retail (H/F)",
-      "company": "JACQUEMUS",
-      "why": "location: \"Paris HQ, Île de France\" is outside his work radius"
+      "title": "Steuerberater (m/w/d) in Frankfurt am Main, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€",
+      "company": "Taxtalente.de",
+      "why": "location: \"Frankfurt am Main\" is outside his work radius"
     },
     {
-      "title": "Technical Project Manager - Engineering Delivery",
-      "company": "Diabolocom",
-      "why": "location: \"Paris\" is outside his work radius"
+      "title": "Steuerberater (m/w/d) in Reken, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€",
+      "company": "Taxtalente.de",
+      "why": "location: \"Reken\" is outside his work radius"
     },
     {
-      "title": "Responsable Comptable",
-      "company": "Diabolocom",
-      "why": "location: \"Paris\" is outside his work radius"
+      "title": "Steuerberater (m/w/d) in Flöha, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€",
+      "company": "Taxtalente.de",
+      "why": "location: \"Flöha\" is outside his work radius"
     },
     {
-      "title": "Head of Infrastructure",
-      "company": "Diabolocom",
-      "why": "location: \"Paris\" is outside his work radius"
+      "title": "Steuerberater (m/w/d) in Seth, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€",
+      "company": "Taxtalente.de",
+      "why": "location: \"Seth\" is outside his work radius"
     },
     {
-      "title": "Regional Marketing Intern",
-      "company": "Deliverect",
-      "why": "location: \"Paris\" is outside his work radius"
+      "title": "Steuerberater (m/w/d) in Lieser, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€",
+      "company": "Taxtalente.de",
+      "why": "location: \"Lieser\" is outside his work radius"
     },
     {
-      "title": "Maintenance Technician",
-      "company": "Ircagroup",
-      "why": "location: \"Anneyron, France\" is outside his work radius"
+      "title": "Steuerberater (m/w/d) in Berghaupten, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€",
+      "company": "Taxtalente.de",
+      "why": "location: \"Berghaupten\" is outside his work radius"
     },
     {
-      "title": "Customer Success Manager (Gestionnaire de compte)",
-      "company": "Vivenu",
-      "why": "location: \"Paris\" is outside his work radius"
+      "title": "Electrician (m/f/d)",
+      "company": "Sereact GmbH",
+      "why": "location: \"Stuttgart Schockenriedstr. 17\" is outside his work radius"
     },
     {
-      "title": "Technical Advisor – Airframe & Engine",
-      "company": "Jetsupport",
-      "why": "location: \"France\" is outside his work radius"
+      "title": "Business Development Representative - SMB (English-speaking)",
+      "company": "Secfix",
+      "why": "seniority_mismatch: matched \"internship\""
     },
     {
-      "title": "Commercial Sédentaire B2B (English/French)",
-      "company": "Ajax Systems",
-      "why": "location: \"Paris\" is outside his work radius"
+      "title": "Working Student Graphic Designer",
+      "company": "Almedia",
+      "why": "location: \"Berlin\" is outside his work radius"
     },
     {
-      "title": "B2B Marketing Specialist (France)",
-      "company": "Ajax Systems",
-      "why": "location: \"Bordeaux\" is outside his work radius"
+      "title": "Creator Partnerships Manager (German-speaking)",
+      "company": "Almedia",
+      "why": "location: \"Berlin\" is outside his work radius"
     },
     {
-      "title": "Area Pre-Sales Engineer France",
-      "company": "Ajax Systems",
-      "why": "location: \"Strasbourg\" is outside his work radius"
+      "title": "Marketing Communications Manager (B2B)",
+      "company": "Almedia",
+      "why": "location: \"Berlin\" is outside his work radius"
     },
     {
-      "title": "Pullup Entertainment - Cdi - Responsable Comptable Generale (H/F/Nb)",
-      "company": "Pullup Entertainment",
-      "why": "location: \"Paris, Île-de-France, France\" is outside his work radius"
+      "title": "Senior Accountant (m/f/d)",
+      "company": "Yepoda",
+      "why": "location: \"Berlin\" is outside his work radius"
     },
     {
-      "title": "Pullup Entertainment - Cdi - Comptable Fournisseur Junior (H/F/Nb)",
-      "company": "Pullup Entertainment",
-      "why": "location: \"Paris, Île-de-France, France\" is outside his work radius"
+      "title": "Accountant (m/f/d)",
+      "company": "Yepoda",
+      "why": "location: \"Berlin\" is outside his work radius"
     },
     {
-      "title": "Pullup Entertainment - Cdi -  Technicien Support It (H/F/Nb)",
-      "company": "Pullup Entertainment",
-      "why": "location: \"Paris, Île-de-France, France\" is outside his work radius"
+      "title": "Product Lead - AI Neobank App",
+      "company": "Bjak",
+      "why": "location: \"Germany\" is outside his work radius"
     },
     {
-      "title": "Pullup Entertainment - Stage - (M2 / Iej /Efb) Juriste Droit De La Pl Et Des Contrats - Janvier 2027( H/F/Nb)",
-      "company": "Pullup Entertainment",
-      "why": "location: \"Paris, Île-de-France, France\" is outside his work radius"
+      "title": "Software Engineer - Simulation Platform",
+      "company": "Proxima Fusion GmbH",
+      "why": "location: \"Munich\" is outside his work radius"
     },
     {
-      "title": "Focus Entertainment Publishing - Stage - Assistant Relation Presse Et Influence - Janvier 2027 (F/H/Nb)",
-      "company": "Pullup Entertainment",
-      "why": "location: \"Paris, Île-de-France, France\" is outside his work radius"
+      "title": "Senior Simulation Engineer, Computational Physics",
+      "company": "Proxima Fusion GmbH",
+      "why": "location: \"Munich\" is outside his work radius"
     },
     {
-      "title": "Focus Entertainment Publishing - Stage - Assistant Brand & Creative Management ( H/F/Nb) - Janvier",
-      "company": "Pullup Entertainment",
-      "why": "location: \"Paris, Île-de-France, France\" is outside his work radius"
+      "title": "Stellarator Integration Engineer",
+      "company": "Proxima Fusion GmbH",
+      "why": "location: \"Munich\" is outside his work radius"
     },
     {
-      "title": "Stage Communication & Marketing (3)",
-      "company": "Lease a Bike",
-      "why": "location: \"Paris, Île-de-France, Frankrijk\" is outside his work radius"
+      "title": "Senior Android Developer (f/m/d)",
+      "company": "adjoe",
+      "why": "location: \"Hamburg\" is outside his work radius"
     },
     {
-      "title": "Stage - Juriste IP/IT",
-      "company": "Brevo",
-      "why": "location: \"Paris, France\" is outside his work radius"
+      "title": "Praktikant (m/w/d) – Produktentwicklung & Datenaufbereitung",
+      "company": "CERTUSS GmbH",
+      "why": "location: \"Krefeld, Nordrhein-Westfalen, Deutschland\" is outside his work radius"
     },
     {
-      "title": "Distinguished Engineer",
-      "company": "Brevo",
-      "why": "location: \"Paris, France\" is outside his work radius"
+      "title": "E-Mail Marketing Manager",
+      "company": "Gusti Leder GmbH",
+      "why": "location: \"Rostock, Mecklenburg-Vorpommern, Deutschland\" is outside his work radius"
     },
     {
-      "title": "Customer Experience Representative - Spanish speaker",
-      "company": "Brevo",
-      "why": "location: \"Paris, France\" is outside his work radius"
+      "title": "Verkäufer:in - Werkstudent (m/w/d) (3)",
+      "company": "Gusti Leder GmbH",
+      "why": "location: \"Trier, Rheinland-Pfalz, Deutschland\" is outside his work radius"
     },
     {
-      "title": "Customer Experience Representative - German speaker",
-      "company": "Brevo",
-      "why": "location: \"Paris, France\" is outside his work radius"
+      "title": "Strategic Valuation & Modeling - Senior Manager",
+      "company": "EIGHT ADVISORY SAS",
+      "why": "location: \"Frankfurt am Main, Hesse, Allemagne\" is outside his work radius"
     },
     {
-      "title": "Customer Experience Representative - French speaker",
-      "company": "Brevo",
-      "why": "location: \"Paris, France\" is outside his work radius"
+      "title": "Senior Controller  (m/w/d)",
+      "company": "SCHAEFER GmbH",
+      "why": "location: \"Sigmaringen, Baden-Württemberg, Deutschland\" is outside his work radius"
     },
     {
-      "title": "Customer Experience Representative - English speaker",
-      "company": "Brevo",
-      "why": "location: \"Paris, France\" is outside his work radius"
+      "title": "Pizzabäcker / Pizzaiolo (m/w/d) NRW",
+      "company": "60 seconds to napoli Holding GmbH",
+      "why": "location: \"bundesweit, Nordrhein-Westfalen, Deutschland\" is outside his work radius"
     },
     {
-      "title": "Teamleiter Last Mile Logistik/ Quereinsteiger (m/w/d)",
-      "company": "Teampicnic",
-      "why": "location: \"Frankfurt an der Oder, Brandenburg\" is outside his work radius"
+      "title": "Pizzabäcker / Pizzaiolo (m/w/d) Norden",
+      "company": "60 seconds to napoli Holding GmbH",
+      "why": "location: \"bundesweit, Nordrhein-Westfalen, Deutschland\" is outside his work radius"
     },
     {
-      "title": "Strategy - Future Leaders Graduate Program",
-      "company": "Teampicnic",
-      "why": "location: \"Düsseldorf, North Rhine-Westphalia\" is outside his work radius"
+      "title": "Pizzabäcker / Pizzaiolo (m/w/d) NRW 2",
+      "company": "60 seconds to napoli Holding GmbH",
+      "why": "location: \"bundesweit, Nordrhein-Westfalen, Deutschland\" is outside his work radius"
     },
     {
-      "title": "Tax Manager Corporates & Compliance  | PE Funds UCITS",
-      "company": "coni+partner AG",
-      "why": "location: \"London\" is outside his work radius"
+      "title": "Pizzabäcker / Pizzaiolo (m/w/d) Osten",
+      "company": "60 seconds to napoli Holding GmbH",
+      "why": "location: \"bundesweit, Nordrhein-Westfalen, Deutschland\" is outside his work radius"
     },
     {
-      "title": "Staff/Senior AI Engineer, AI for Code",
-      "company": "jetbrains",
-      "why": "location: \"London\" is outside his work radius"
+      "title": "Pizzabäcker / Pizzaiolo (m/w/d) Südwest",
+      "company": "60 seconds to napoli Holding GmbH",
+      "why": "location: \"bundesweit, Nordrhein-Westfalen, Deutschland\" is outside his work radius"
     },
     {
-      "title": "Senior Product Manager (VCS Ecosystem)",
-      "company": "jetbrains",
-      "why": "location: \"London\" is outside his work radius"
+      "title": "Werkstudent Go-To-Market & Partner Management (m/w/d)",
+      "company": "Bees & Bears GmbH",
+      "why": "location: \"Berlin\" is outside his work radius"
     },
     {
-      "title": "Growth manager (JetBrains AI)",
-      "company": "jetbrains",
-      "why": "location: \"London\" is outside his work radius"
+      "title": "Performance Creative Strategist - Social & Paid (w/m/d)",
+      "company": "Zasta Karriere",
+      "why": "location: \"Berlin\" is outside his work radius"
     },
     {
-      "title": "Entrepreneur in Residence/Product Lead (Project Thinkrail)",
-      "company": "jetbrains",
-      "why": "location: \"London\" is outside his work radius"
+      "title": "Chief of Staff (m/w/d)",
+      "company": "Zasta Karriere",
+      "why": "location: \"Berlin\" is outside his work radius"
     },
     {
-      "title": "AI Transformation Owner, Product & Design",
-      "company": "gitlab",
-      "why": "work_authorisation: matched \"united states only\""
+      "title": "Teamleiter Accounting (m/w/d)",
+      "company": "Sereni Deutschland GmbH",
+      "why": "location: \"Düsseldorf\" is outside his work radius"
     },
     {
-      "title": "Senior Manager, Solutions Engineering",
-      "company": "okta",
-      "why": "location: \"London\" is outside his work radius"
+      "title": "Sales Manager – Gewerbliche Photovoltaik (m/w/d)",
+      "company": "heimWatt GmbH",
+      "why": "location: \"Köln Aachener Str.\" is outside his work radius"
     },
     {
-      "title": "Account Executive Large Enterprise Public Sector",
-      "company": "okta",
-      "why": "location: \"London\" is outside his work radius"
+      "title": "Elektriker Photovoltaik Großprojekte (m/w/d)",
+      "company": "heimWatt GmbH",
+      "why": "location: \"Köln Aachener Str.\" is outside his work radius"
     }
   ],
   "sources": [
@@ -307,14 +307,14 @@
       "source": "institution/gust",
       "last_count": null,
       "note": "unreachable: HTTPError: HTTP Error 403: Forbidden",
-      "fails": 3,
+      "fails": 4,
       "last_success": ""
     },
     {
       "source": "institution/ack",
       "last_count": null,
       "note": "unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
-      "fails": 2,
+      "fails": 3,
       "last_success": ""
     },
     {
@@ -336,83 +336,83 @@
       "last_count": 250,
       "note": "250 jobs",
       "fails": 0,
-      "last_success": "2026-09-19T05:21:33+00:00"
+      "last_success": "2026-09-19T09:13:00+00:00"
     },
     {
       "source": "ashby/The-Flex",
       "last_count": 7,
       "note": "7 jobs",
       "fails": 0,
-      "last_success": "2026-09-19T05:21:33+00:00"
+      "last_success": "2026-09-19T09:13:00+00:00"
     },
     {
       "source": "institution/ask",
       "last_count": 0,
       "note": "no JSON-LD; watching for page changes",
       "fails": 0,
-      "last_success": "2026-09-19T05:21:45+00:00"
+      "last_success": "2026-09-19T09:13:14+00:00"
     },
     {
       "source": "institution/au-kuwait",
       "last_count": 0,
       "note": "no JSON-LD; watching for page changes",
       "fails": 0,
-      "last_success": "2026-09-19T05:21:36+00:00"
+      "last_success": "2026-09-19T09:13:03+00:00"
     },
     {
       "source": "institution/auk",
       "last_count": 0,
       "note": "no JSON-LD; watching for page changes",
       "fails": 0,
-      "last_success": "2026-09-19T05:21:34+00:00"
+      "last_success": "2026-09-19T09:13:01+00:00"
     },
     {
       "source": "institution/aum",
       "last_count": 0,
       "note": "no JSON-LD; watching for page changes",
       "fails": 0,
-      "last_success": "2026-09-19T05:21:40+00:00"
+      "last_success": "2026-09-19T09:13:08+00:00"
     },
     {
       "source": "institution/box-hill",
       "last_count": 0,
       "note": "no JSON-LD; watching for page changes",
       "fails": 0,
-      "last_success": "2026-09-19T05:21:43+00:00"
+      "last_success": "2026-09-19T09:13:11+00:00"
     },
     {
       "source": "institution/bsk",
       "last_count": 0,
       "note": "no JSON-LD; watching for page changes",
       "fails": 0,
-      "last_success": "2026-09-19T05:21:38+00:00"
+      "last_success": "2026-09-19T09:13:05+00:00"
     },
     {
       "source": "institution/kuwait-university",
       "last_count": 0,
       "note": "no JSON-LD; watching for page changes",
       "fails": 0,
-      "last_success": "2026-09-19T05:21:37+00:00"
+      "last_success": "2026-09-19T09:13:04+00:00"
     },
     {
       "source": "remoteok",
       "last_count": 99,
       "note": "99 jobs",
       "fails": 0,
-      "last_success": "2026-09-19T05:21:33+00:00"
+      "last_success": "2026-09-19T09:13:00+00:00"
     },
     {
       "source": "remotive",
       "last_count": 16,
       "note": "16 jobs",
       "fails": 0,
-      "last_success": "2026-09-19T05:21:33+00:00"
+      "last_success": "2026-09-19T09:13:00+00:00"
     }
   ],
   "yield": [
     {
       "source": "arbeitnow",
-      "surfaced": 78,
+      "surfaced": 95,
       "applied": 0,
       "interviews": 0,
       "offers": 0,

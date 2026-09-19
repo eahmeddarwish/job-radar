@@ -6,53 +6,53 @@ _No new matches today._
 
 ### ⚠️ Sources needing attention
 
-- **institution/gust** — unreachable: HTTPError: HTTP Error 403: Forbidden (3 run(s) in a row)
-- **institution/ack** — unreachable: URLError: <urlopen error [Errno -2] Name or service not known> (2 run(s) in a row)
+- **institution/gust** — unreachable: HTTPError: HTTP Error 403: Forbidden (4 run(s) in a row)
+- **institution/ack** — unreachable: URLError: <urlopen error [Errno -2] Name or service not known> (3 run(s) in a row)
 - **institution/kcst** — unreachable: TimeoutError: The read operation timed out (1 run(s) in a row)
 - **institution/paaet** — unreachable: HTTPError: HTTP Error 404: Not Found (1 run(s) in a row)
 
 <details><summary>Filtered out, and why</summary>
 
-- **Stage - Assistant(E) Coordination Studio (H/F) - Janvier 2027** — JACQUEMUS · location: "Paris HQ, Île de France" is outside his work radius
-- **Stage - Assistant Visuel Merchandising - (H/F) - Septembre 2026 (6 Mois)** — JACQUEMUS · location: "Paris HQ, Île de France" is outside his work radius
-- **Cdi - Responsable Qualite (H/F)** — JACQUEMUS · location: "Paris HQ, Île de France" is outside his work radius
-- **Cdi - Knitwear Designer - Menswear & Womenswear** — JACQUEMUS · location: "Paris" is outside his work radius
-- **Cdi - Designer Maroquinerie (H/F)** — JACQUEMUS · location: "Paris" is outside his work radius
-- **Cdi - 7H – Conseiller De Vente (H/F) – Montaigne** — JACQUEMUS · location: "Boutique Montaigne, Paris, Île de France" is outside his work radius
-- **Cdd - Coordinateur Adv Wholesale & Retail (H/F)** — JACQUEMUS · location: "Paris HQ, Île de France" is outside his work radius
-- **Technical Project Manager - Engineering Delivery** — Diabolocom · location: "Paris" is outside his work radius
-- **Responsable Comptable** — Diabolocom · location: "Paris" is outside his work radius
-- **Head of Infrastructure** — Diabolocom · location: "Paris" is outside his work radius
-- **Regional Marketing Intern** — Deliverect · location: "Paris" is outside his work radius
-- **Maintenance Technician** — Ircagroup · location: "Anneyron, France" is outside his work radius
-- **Customer Success Manager (Gestionnaire de compte)** — Vivenu · location: "Paris" is outside his work radius
-- **Technical Advisor – Airframe & Engine** — Jetsupport · location: "France" is outside his work radius
-- **Commercial Sédentaire B2B (English/French)** — Ajax Systems · location: "Paris" is outside his work radius
-- **B2B Marketing Specialist (France)** — Ajax Systems · location: "Bordeaux" is outside his work radius
-- **Area Pre-Sales Engineer France** — Ajax Systems · location: "Strasbourg" is outside his work radius
-- **Pullup Entertainment - Cdi - Responsable Comptable Generale (H/F/Nb)** — Pullup Entertainment · location: "Paris, Île-de-France, France" is outside his work radius
-- **Pullup Entertainment - Cdi - Comptable Fournisseur Junior (H/F/Nb)** — Pullup Entertainment · location: "Paris, Île-de-France, France" is outside his work radius
-- **Pullup Entertainment - Cdi -  Technicien Support It (H/F/Nb)** — Pullup Entertainment · location: "Paris, Île-de-France, France" is outside his work radius
-- **Pullup Entertainment - Stage - (M2 / Iej /Efb) Juriste Droit De La Pl Et Des Contrats - Janvier 2027( H/F/Nb)** — Pullup Entertainment · location: "Paris, Île-de-France, France" is outside his work radius
-- **Focus Entertainment Publishing - Stage - Assistant Relation Presse Et Influence - Janvier 2027 (F/H/Nb)** — Pullup Entertainment · location: "Paris, Île-de-France, France" is outside his work radius
-- **Focus Entertainment Publishing - Stage - Assistant Brand & Creative Management ( H/F/Nb) - Janvier** — Pullup Entertainment · location: "Paris, Île-de-France, France" is outside his work radius
-- **Stage Communication & Marketing (3)** — Lease a Bike · location: "Paris, Île-de-France, Frankrijk" is outside his work radius
-- **Stage - Juriste IP/IT** — Brevo · location: "Paris, France" is outside his work radius
-- **Distinguished Engineer** — Brevo · location: "Paris, France" is outside his work radius
-- **Customer Experience Representative - Spanish speaker** — Brevo · location: "Paris, France" is outside his work radius
-- **Customer Experience Representative - German speaker** — Brevo · location: "Paris, France" is outside his work radius
-- **Customer Experience Representative - French speaker** — Brevo · location: "Paris, France" is outside his work radius
-- **Customer Experience Representative - English speaker** — Brevo · location: "Paris, France" is outside his work radius
-- **Teamleiter Last Mile Logistik/ Quereinsteiger (m/w/d)** — Teampicnic · location: "Frankfurt an der Oder, Brandenburg" is outside his work radius
-- **Strategy - Future Leaders Graduate Program** — Teampicnic · location: "Düsseldorf, North Rhine-Westphalia" is outside his work radius
-- **Tax Manager Corporates & Compliance  | PE Funds UCITS** — coni+partner AG · location: "London" is outside his work radius
-- **Staff/Senior AI Engineer, AI for Code** — jetbrains · location: "London" is outside his work radius
-- **Senior Product Manager (VCS Ecosystem)** — jetbrains · location: "London" is outside his work radius
-- **Growth manager (JetBrains AI)** — jetbrains · location: "London" is outside his work radius
-- **Entrepreneur in Residence/Product Lead (Project Thinkrail)** — jetbrains · location: "London" is outside his work radius
-- **AI Transformation Owner, Product & Design** — gitlab · work_authorisation: matched "united states only"
-- **Senior Manager, Solutions Engineering** — okta · location: "London" is outside his work radius
-- **Account Executive Large Enterprise Public Sector** — okta · location: "London" is outside his work radius
+- **Junior Data Analyst** — HiredBuddy · work_authorisation: matched "must be legally authorized to work in the united states"
+- **Social-Media Werkstudentin (m/w/d) für Mainwebsolutions & Closery, Würzburg vor Ort** — Mainwebsolutions · location: "Würzburg" is outside his work radius
+- **IT-Systemadministrator:in (m/w/d)** — Brandenburger Holding GmbH · location: "Landau" is outside his work radius
+- **Mitarbeiter:in IT-Support & Systembetreuung (m/w/d)** — Brandenburger Holding GmbH · location: "Landau" is outside his work radius
+- **Steuerberater (m/w/d) in Andernach, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€** — Taxtalente.de · location: "Andernach" is outside his work radius
+- **Steuerberater (m/w/d) in Eppenbrunn, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€** — Taxtalente.de · location: "Eppenbrunn" is outside his work radius
+- **Steuerberater (m/w/d) in Frankfurt am Main, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€** — Taxtalente.de · location: "Frankfurt am Main" is outside his work radius
+- **Steuerberater (m/w/d) in Reken, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€** — Taxtalente.de · location: "Reken" is outside his work radius
+- **Steuerberater (m/w/d) in Flöha, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€** — Taxtalente.de · location: "Flöha" is outside his work radius
+- **Steuerberater (m/w/d) in Seth, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€** — Taxtalente.de · location: "Seth" is outside his work radius
+- **Steuerberater (m/w/d) in Lieser, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€** — Taxtalente.de · location: "Lieser" is outside his work radius
+- **Steuerberater (m/w/d) in Berghaupten, auf Wunsch mit Partnerperspektive, gesucht - mindestens 90.000€** — Taxtalente.de · location: "Berghaupten" is outside his work radius
+- **Electrician (m/f/d)** — Sereact GmbH · location: "Stuttgart Schockenriedstr. 17" is outside his work radius
+- **Business Development Representative - SMB (English-speaking)** — Secfix · seniority_mismatch: matched "internship"
+- **Working Student Graphic Designer** — Almedia · location: "Berlin" is outside his work radius
+- **Creator Partnerships Manager (German-speaking)** — Almedia · location: "Berlin" is outside his work radius
+- **Marketing Communications Manager (B2B)** — Almedia · location: "Berlin" is outside his work radius
+- **Senior Accountant (m/f/d)** — Yepoda · location: "Berlin" is outside his work radius
+- **Accountant (m/f/d)** — Yepoda · location: "Berlin" is outside his work radius
+- **Product Lead - AI Neobank App** — Bjak · location: "Germany" is outside his work radius
+- **Software Engineer - Simulation Platform** — Proxima Fusion GmbH · location: "Munich" is outside his work radius
+- **Senior Simulation Engineer, Computational Physics** — Proxima Fusion GmbH · location: "Munich" is outside his work radius
+- **Stellarator Integration Engineer** — Proxima Fusion GmbH · location: "Munich" is outside his work radius
+- **Senior Android Developer (f/m/d)** — adjoe · location: "Hamburg" is outside his work radius
+- **Praktikant (m/w/d) – Produktentwicklung & Datenaufbereitung** — CERTUSS GmbH · location: "Krefeld, Nordrhein-Westfalen, Deutschland" is outside his work radius
+- **E-Mail Marketing Manager** — Gusti Leder GmbH · location: "Rostock, Mecklenburg-Vorpommern, Deutschland" is outside his work radius
+- **Verkäufer:in - Werkstudent (m/w/d) (3)** — Gusti Leder GmbH · location: "Trier, Rheinland-Pfalz, Deutschland" is outside his work radius
+- **Strategic Valuation & Modeling - Senior Manager** — EIGHT ADVISORY SAS · location: "Frankfurt am Main, Hesse, Allemagne" is outside his work radius
+- **Senior Controller  (m/w/d)** — SCHAEFER GmbH · location: "Sigmaringen, Baden-Württemberg, Deutschland" is outside his work radius
+- **Pizzabäcker / Pizzaiolo (m/w/d) NRW** — 60 seconds to napoli Holding GmbH · location: "bundesweit, Nordrhein-Westfalen, Deutschland" is outside his work radius
+- **Pizzabäcker / Pizzaiolo (m/w/d) Norden** — 60 seconds to napoli Holding GmbH · location: "bundesweit, Nordrhein-Westfalen, Deutschland" is outside his work radius
+- **Pizzabäcker / Pizzaiolo (m/w/d) NRW 2** — 60 seconds to napoli Holding GmbH · location: "bundesweit, Nordrhein-Westfalen, Deutschland" is outside his work radius
+- **Pizzabäcker / Pizzaiolo (m/w/d) Osten** — 60 seconds to napoli Holding GmbH · location: "bundesweit, Nordrhein-Westfalen, Deutschland" is outside his work radius
+- **Pizzabäcker / Pizzaiolo (m/w/d) Südwest** — 60 seconds to napoli Holding GmbH · location: "bundesweit, Nordrhein-Westfalen, Deutschland" is outside his work radius
+- **Werkstudent Go-To-Market & Partner Management (m/w/d)** — Bees & Bears GmbH · location: "Berlin" is outside his work radius
+- **Performance Creative Strategist - Social & Paid (w/m/d)** — Zasta Karriere · location: "Berlin" is outside his work radius
+- **Chief of Staff (m/w/d)** — Zasta Karriere · location: "Berlin" is outside his work radius
+- **Teamleiter Accounting (m/w/d)** — Sereni Deutschland GmbH · location: "Düsseldorf" is outside his work radius
+- **Sales Manager – Gewerbliche Photovoltaik (m/w/d)** — heimWatt GmbH · location: "Köln Aachener Str." is outside his work radius
+- **Elektriker Photovoltaik Großprojekte (m/w/d)** — heimWatt GmbH · location: "Köln Aachener Str." is outside his work radius
 
 </details>
 
