@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-19T13:43:30+00:00",
+  "generated_at": "2026-09-19T17:01:39+00:00",
   "date": "2026-09-19",
-  "scanned": 374,
+  "scanned": 373,
   "min_score": 45,
   "candidate": {
     "name": "Ahmed Darwish",
@@ -102,204 +102,204 @@
   ],
   "rejected": [
     {
-      "title": "Senior .NET Full-stack Developer",
-      "company": "Lemon.io",
-      "why": "location: \"Northern America, LATAM, Europe, APAC\" is outside his work radius"
+      "title": "Vorarbeiter*in / Teamleiter*in Gebäudereinigung (m/w/d)",
+      "company": "Vebego Facility Services Germany",
+      "why": "location: \"Haan, Nordrhein-Westfalen, Deutschland\" is outside his work radius"
     },
     {
-      "title": "Procurement Manager",
-      "company": "Andercore",
+      "title": "Werkstudent (m/w/d) Bauingenieurwesen",
+      "company": "CTS Composite Technologie Systeme GmbH",
+      "why": "location: \"Geesthacht, Schleswig-Holstein, Deutschland\" is outside his work radius"
+    },
+    {
+      "title": "Werkstudent im Asset Management Energy (m/w/d)",
+      "company": "CURRENTA GRUPPE",
+      "why": "location: \"Leverkusen, Nordrhein-Westfalen, Deutschland\" is outside his work radius"
+    },
+    {
+      "title": "AI Strategy & Automation Lead (m/w/d)",
+      "company": "benuta GmbH",
+      "why": "location: \"Bonn, Nordrhein-Westfalen, Deutschland\" is outside his work radius"
+    },
+    {
+      "title": "AI Videographer / Filmmaker (m/w/d)",
+      "company": "benuta GmbH",
+      "why": "location: \"Bonn, Nordrhein-Westfalen, Deutschland\" is outside his work radius"
+    },
+    {
+      "title": "Servicemitarbeiter:in (m/w/d) in Teilzeit und Werkstudent:in",
+      "company": "The Bellezza Group",
+      "why": "location: \"Restaurant Gigi München, Bayern, Deutschland\" is outside his work radius"
+    },
+    {
+      "title": "DATEV-Experte/DATEV-Expertin, Fachassistenz Digitalisierung FAIT (w/m/d)",
+      "company": "VRT Partnerschaft mbB Wirtschaftsprüfer Steuerberater Rechtsanwälte",
+      "why": "location: \"Bonn, Nordrhein-Westfalen, Deutschland\" is outside his work radius"
+    },
+    {
+      "title": "PUMA Retail Sales Associate (m/w/d)",
+      "company": "Designer Outlet Soltau",
+      "why": "location: \"Soltau, Niedersachsen, Deutschland\" is outside his work radius"
+    },
+    {
+      "title": "Carl Gross Retail GmbH",
+      "company": "Designer Outlet Soltau",
+      "why": "location: \"Soltau, Niedersachsen, Deutschland\" is outside his work radius"
+    },
+    {
+      "title": "Verkaufstalent Düsseldorf Airport flex (m/w/d)",
+      "company": "My Jewellery",
+      "why": "location: \"Düsseldorf, Nordrhein-Westfalen, Duitsland\" is outside his work radius"
+    },
+    {
+      "title": "Polier (m/w/d) - Schlüsselfertigbau - faire Bezahlung, top Ausstattung 60k-80k",
+      "company": "4Chain Consulting",
+      "why": "location: \"Essen, Germany\" is outside his work radius"
+    },
+    {
+      "title": "Polier (m/w/d) - Schlüsselfertigbau - faire Bezahlung, top Ausstattung 60k-80k",
+      "company": "4Chain Consulting",
+      "why": "location: \"Cologne, Germany\" is outside his work radius"
+    },
+    {
+      "title": "Polier (m/w/d) - Schlüsselfertigbau - faire Bezahlung, top Ausstattung 60k-80k",
+      "company": "4Chain Consulting",
+      "why": "location: \"Düsseldorf, Germany\" is outside his work radius"
+    },
+    {
+      "title": "Polier (m/w/d) - Hochbau/SF - faire Bezahlung, top Ausstattung 60k-80k",
+      "company": "4Chain Consulting",
+      "why": "location: \"Göttingen, Germany\" is outside his work radius"
+    },
+    {
+      "title": "Polier (m/w/d) - Hochbau/SF - faire Bezahlung, top Ausstattung 60k-80k",
+      "company": "4Chain Consulting",
+      "why": "location: \"Osnabrück, Germany\" is outside his work radius"
+    },
+    {
+      "title": "Polier (m/w/d) - Hochbau/SF - faire Bezahlung, top Ausstattung 60k-80k",
+      "company": "4Chain Consulting",
+      "why": "location: \"Hamburg, Germany\" is outside his work radius"
+    },
+    {
+      "title": "Polier (m/w/d) - Hochbau/SF - faire Bezahlung, top Ausstattung 60k-80k",
+      "company": "4Chain Consulting",
+      "why": "location: \"Hanover, Germany\" is outside his work radius"
+    },
+    {
+      "title": "Polier (m/w/d) - Hochbau/SF - faire Bezahlung, top Ausstattung 55k-75k",
+      "company": "4Chain Consulting",
+      "why": "location: \"Berlin, Germany\" is outside his work radius"
+    },
+    {
+      "title": "Polier (m/w/d) - Hochbau/SF - faire Bezahlung, top Ausstattung 55k-75k",
+      "company": "4Chain Consulting",
+      "why": "location: \"Dresden, Germany\" is outside his work radius"
+    },
+    {
+      "title": "Polier (m/w/d) - Hochbau/SF - faire Bezahlung, top Ausstattung 55k-75k",
+      "company": "4Chain Consulting",
+      "why": "location: \"Leipzig, Germany\" is outside his work radius"
+    },
+    {
+      "title": "Senior Berater*in und Programm-Manager*in Kooperationen & Collective Impact (m/w/d)",
+      "company": "Phineo",
       "why": "location: \"Berlin\" is outside his work radius"
     },
     {
-      "title": "Senior Finance Manager (f/m/x)",
-      "company": "Lemon Markets",
-      "why": "location: \"Germany  (Hybrid)\" is outside his work radius"
-    },
-    {
-      "title": "Cryogenics Engineer (f/m/d)",
-      "company": "Focused",
-      "why": "location: \"Darmstadt, DE\" is outside his work radius"
-    },
-    {
-      "title": "Praktikum Fundraising und Campaigning",
-      "company": "GermanZero e.V.",
-      "why": "location: \"Berlin, Berlin, Deutschland\" is outside his work radius"
-    },
-    {
-      "title": "Logistiker im Bereich Maintenance / Service (w/m/d)",
-      "company": "encontec GmbH",
-      "why": "location: \"Oberkochen , Baden-Württemberg, Deutschland\" is outside his work radius"
-    },
-    {
-      "title": "Qualitätsmanager (m/w/d) Supply Chain",
-      "company": "encontec GmbH",
-      "why": "location: \"Backnang, Baden-Württemberg, Deutschland\" is outside his work radius"
-    },
-    {
-      "title": "Training-Manager (m/w/d) Service",
-      "company": "encontec GmbH",
-      "why": "location: \"Jena, Thüringen, Deutschland\" is outside his work radius"
-    },
-    {
-      "title": "Trainee Online-Marketing-Manager/-in - Vollzeit (m/w/d)",
-      "company": "Conesso",
-      "why": "location: \"Köln, Nordrhein-Westfalen, Deutschland\" is outside his work radius"
-    },
-    {
-      "title": "Trainee Online-Marketing-Manager/-in - Vollzeit (m/w/d)",
-      "company": "Conesso",
-      "why": "location: \"Köln, Nordrhein-Westfalen, Deutschland\" is outside his work radius"
-    },
-    {
-      "title": "Service Techniker:in Photovoltaik (f/m/x)",
-      "company": "Otovo",
-      "why": "location: \"Berlin, Berlin, Germany\" is outside his work radius"
-    },
-    {
-      "title": "Service Techniker:in Photovoltaik (f/m/d)",
-      "company": "Otovo",
-      "why": "location: \"Berlin, Berlin, Germany\" is outside his work radius"
-    },
-    {
-      "title": "Head of Public Affairs (Germany & EU) @ AI Infrastructure Venture, Dresden",
-      "company": "atlantic.vc",
-      "why": "location: \"Dresden, Sachsen, Germany\" is outside his work radius"
-    },
-    {
-      "title": "Founder Associate (gn) @ AI Venture, Berlin",
-      "company": "atlantic.vc",
-      "why": "seniority_mismatch: matched \"internship\""
-    },
-    {
-      "title": "Trainer (m/w/d) für Erwachsene und Kinder (Teilzeit/Minijob)",
-      "company": "Ultimate Gym Königsbrunn",
-      "why": "location: \"Königsbrunn, Bayern, Deutschland\" is outside his work radius"
-    },
-    {
-      "title": "Kampfsporttrainer/in (Minijob)",
-      "company": "Ultimate Gym Königsbrunn",
-      "why": "location: \"Augsburg, Bayern, Deutschland\" is outside his work radius"
-    },
-    {
-      "title": "SAP Procurement & Supply Chain Transformation Consultant - Life Sciences Germany",
-      "company": "Infosys Consulting Europe",
-      "why": "location: \"Munich, Germany\" is outside his work radius"
-    },
-    {
-      "title": "Group Account Director Automotive (w/m/d)",
-      "company": "We Are Social 1",
-      "why": "location: \"Munich, Germany\" is outside his work radius"
-    },
-    {
-      "title": "Azure Infrastructure Engineer (m/w/d) in Köln",
-      "company": "GRÜNE'S LEIHHÄUSER GmbH & Co. KG",
-      "why": "location: \"Büro Köln\" is outside his work radius"
-    },
-    {
-      "title": "Azure Infrastructure Engineer (m/w/d) in Frankfurt",
-      "company": "GRÜNE'S LEIHHÄUSER GmbH & Co. KG",
-      "why": "location: \"Büro Frankfurt\" is outside his work radius"
-    },
-    {
-      "title": "(Senior) Accountant (all genders)",
-      "company": "YOSHI",
+      "title": "Working Student – Content and Data Management (all genders)",
+      "company": "Ctrl Qs",
       "why": "location: \"Berlin\" is outside his work radius"
     },
     {
-      "title": "Senior Business Development & Strategy Manager (m/w/d)",
-      "company": "Studyflix Gmbh",
-      "why": "location: \"Augsburg\" is outside his work radius"
+      "title": "Steuerfachangestellter oder Fachinformatiker (m/w/d) Schwerpunkt Kanzleiorganisation & DATEV",
+      "company": "Ba Tax Gmbh",
+      "why": "location: \"Hamburg\" is outside his work radius"
     },
     {
-      "title": "Teamleiter IT Infrastructure (m/w/d)",
-      "company": "IPG Automotive - Personio",
-      "why": "location: \"Karlsruhe Fautenbruchstraße\" is outside his work radius"
+      "title": "Senior SAP Consultant (m/w/d) - Real Estate Management (RE, RE-FX)",
+      "company": "Promos Consult Gmbh",
+      "why": "location: \"Berlin\" is outside his work radius"
     },
     {
-      "title": "Praktikant/Werkstudent „Forschung & Innovation – Datengetriebene Entwicklung autonomer Systeme“ (m/w/d)",
-      "company": "IPG Automotive - Personio",
-      "why": "location: \"Karlsruhe Fautenbruchstraße\" is outside his work radius"
+      "title": "Senior Project Management Officer (m/w/d)",
+      "company": "Promos Consult Gmbh",
+      "why": "location: \"Berlin\" is outside his work radius"
     },
     {
-      "title": "Praktikant/Werkstudent „Automatisiertes Infotainment Testing“ (m/w/d)",
-      "company": "IPG Automotive - Personio",
-      "why": "location: \"Stuttgart\" is outside his work radius"
+      "title": "Werkstudent:in Business Operations (m/w/d)",
+      "company": "Acture Germany",
+      "why": "location: \"Hamburg\" is outside his work radius"
     },
     {
-      "title": "Praktikant/Werkstudent „AI based passenger simulation“ (m/w/d)",
-      "company": "IPG Automotive - Personio",
-      "why": "location: \"Stuttgart\" is outside his work radius"
-    },
-    {
-      "title": "(Senior) Compliance & Legal Manager (m/w/d)",
-      "company": "IPG Automotive - Personio",
-      "why": "location: \"Karlsruhe Fautenbruchstraße\" is outside his work radius"
-    },
-    {
-      "title": "Data Protection Specialist (m/w/d)",
-      "company": "Coeo Group Gmbh",
-      "why": "location: \"Dormagen (Kieler Straße 16)\" is outside his work radius"
-    },
-    {
-      "title": "Channel Account Executive - Surveillance (m/w/d)",
-      "company": "Synology - Personio",
-      "why": "location: \"Düsseldorf\" is outside his work radius"
-    },
-    {
-      "title": "Werkstudent:in Public Sector Consulting / Projektmanagement",
-      "company": "Imap Gmbh 1",
-      "why": "location: \"Düsseldorf\" is outside his work radius"
-    },
-    {
-      "title": "Senior Fullstack Developer (m/w/d)",
-      "company": "Techpilot",
+      "title": "Praktikum Gesundheitsförderung und Sporttraining",
+      "company": "Acture Germany",
       "why": "location: \"München\" is outside his work radius"
     },
     {
-      "title": "Chemical Laboratory Assistant / Lab Technician (f/m/d) Analytics & Synthesis",
-      "company": "Career Site bei aevoloop - Personio",
-      "why": "location: \"Leipzig\" is outside his work radius"
+      "title": "Managing Director (m/w/d)",
+      "company": "Acture Germany",
+      "why": "location: \"Köln\" is outside his work radius"
     },
     {
-      "title": "Senior PR Manager (m/w/d) – Remote oder Berlin",
-      "company": "Getpress Gmbh",
+      "title": "AI Consultant (all genders) - Hybrid, Berlin/Frankfurt",
+      "company": "Dida",
       "why": "location: \"Berlin\" is outside his work radius"
     },
     {
-      "title": "IT-Systemadministrator (m/w/d) – Windows Server",
-      "company": "Reservix GmbH",
-      "why": "location: \"Frankfurt am Main\" is outside his work radius"
-    },
-    {
-      "title": "Working Student - Junior Solutions Consultant (m/f/d)",
-      "company": "AMX Consulting - Personio",
-      "why": "seniority_mismatch: matched \"internship\""
-    },
-    {
-      "title": "Founding Engineer Intern",
-      "company": "SCAILE Technologies GmbH",
-      "why": "seniority_mismatch: matched \"internship\""
-    },
-    {
-      "title": "Business / Industry Co-Founder (F/M/D) Role At Startup Guardsphere",
-      "company": "SouthwestX",
-      "why": "location: \"Saarbrücken\" is outside his work radius"
-    },
-    {
-      "title": "Account Executive | Fund Administration | VC | DE (f/m/d)",
-      "company": "bunch",
-      "why": "location: \"Germany\" is outside his work radius"
-    },
-    {
-      "title": "Talent Acquisition Manager | Tech (f/m/d)",
-      "company": "bunch",
+      "title": "Werkstudent*in Review Management & Feedbackanalyse (m/w/d)",
+      "company": "Aok Connect",
       "why": "location: \"Berlin\" is outside his work radius"
     },
     {
-      "title": "(Senior) Full-Stack Engineer | Frontend-leaning | Platform Team (f/m/d) | Berlin",
-      "company": "bunch",
+      "title": "Logistics Manager - Retail & D2C (m/f/d)",
+      "company": "Holy",
       "why": "location: \"Berlin\" is outside his work radius"
+    },
+    {
+      "title": "Social Media Director",
+      "company": "oliver",
+      "why": "location: \"London\" is outside his work radius"
+    },
+    {
+      "title": "Campaign Marketing Manager",
+      "company": "oliver",
+      "why": "location: \"London\" is outside his work radius"
+    },
+    {
+      "title": "Head of Product Management, Forward Deployed & Strategy",
+      "company": "scaleai",
+      "why": "location: \"London\" is outside his work radius"
+    },
+    {
+      "title": "Principal Product Manager (Consulting & Banking or Fintech)",
+      "company": "thoughtworks",
+      "why": "location: \"London\" is outside his work radius"
+    },
+    {
+      "title": "Mathematical Software Engineer",
+      "company": "spire",
+      "why": "location: \"Glasgow\" is outside his work radius"
+    },
+    {
+      "title": "Senior Software Engineer | Full-Stack | Media Translation",
+      "company": "Deepl",
+      "why": "location: \"London\" is outside his work radius"
+    },
+    {
+      "title": "Senior Software Engineer | API Enterprise",
+      "company": "Deepl",
+      "why": "location: \"London\" is outside his work radius"
+    },
+    {
+      "title": "Risk & Control Manager",
+      "company": "Pleo",
+      "why": "location: \"London\" is outside his work radius"
+    },
+    {
+      "title": "Account Manager UKI",
+      "company": "Pleo",
+      "why": "location: \"London\" is outside his work radius"
     }
   ],
   "sources": [
@@ -307,14 +307,14 @@
       "source": "institution/gust",
       "last_count": null,
       "note": "unreachable: HTTPError: HTTP Error 403: Forbidden",
-      "fails": 5,
+      "fails": 6,
       "last_success": ""
     },
     {
       "source": "institution/ack",
       "last_count": null,
       "note": "unreachable: URLError: <urlopen error [Errno -2] Name or service not known>",
-      "fails": 4,
+      "fails": 5,
       "last_success": ""
     },
     {
@@ -336,83 +336,83 @@
       "last_count": 250,
       "note": "250 jobs",
       "fails": 0,
-      "last_success": "2026-09-19T13:43:17+00:00"
+      "last_success": "2026-09-19T17:01:23+00:00"
     },
     {
       "source": "ashby/The-Flex",
       "last_count": 7,
       "note": "7 jobs",
       "fails": 0,
-      "last_success": "2026-09-19T13:43:17+00:00"
+      "last_success": "2026-09-19T17:01:23+00:00"
     },
     {
       "source": "institution/ask",
       "last_count": 0,
       "note": "no JSON-LD; watching for page changes",
       "fails": 0,
-      "last_success": "2026-09-19T13:43:30+00:00"
+      "last_success": "2026-09-19T17:01:39+00:00"
     },
     {
       "source": "institution/au-kuwait",
       "last_count": 0,
       "note": "no JSON-LD; watching for page changes",
       "fails": 0,
-      "last_success": "2026-09-19T13:43:19+00:00"
+      "last_success": "2026-09-19T17:01:26+00:00"
     },
     {
       "source": "institution/auk",
       "last_count": 0,
       "note": "no JSON-LD; watching for page changes",
       "fails": 0,
-      "last_success": "2026-09-19T13:43:18+00:00"
+      "last_success": "2026-09-19T17:01:24+00:00"
     },
     {
       "source": "institution/aum",
       "last_count": 0,
       "note": "no JSON-LD; watching for page changes",
       "fails": 0,
-      "last_success": "2026-09-19T13:43:25+00:00"
+      "last_success": "2026-09-19T17:01:33+00:00"
     },
     {
       "source": "institution/box-hill",
       "last_count": 0,
       "note": "no JSON-LD; watching for page changes",
       "fails": 0,
-      "last_success": "2026-09-19T13:43:27+00:00"
+      "last_success": "2026-09-19T17:01:37+00:00"
     },
     {
       "source": "institution/bsk",
       "last_count": 0,
       "note": "no JSON-LD; watching for page changes",
       "fails": 0,
-      "last_success": "2026-09-19T13:43:22+00:00"
+      "last_success": "2026-09-19T17:01:30+00:00"
     },
     {
       "source": "institution/kuwait-university",
       "last_count": 0,
       "note": "no JSON-LD; watching for page changes",
       "fails": 0,
-      "last_success": "2026-09-19T13:43:21+00:00"
+      "last_success": "2026-09-19T17:01:29+00:00"
     },
     {
       "source": "remoteok",
       "last_count": 99,
       "note": "99 jobs",
       "fails": 0,
-      "last_success": "2026-09-19T13:43:17+00:00"
+      "last_success": "2026-09-19T17:01:23+00:00"
     },
     {
       "source": "remotive",
       "last_count": 17,
       "note": "17 jobs",
       "fails": 0,
-      "last_success": "2026-09-19T13:43:17+00:00"
+      "last_success": "2026-09-19T17:01:23+00:00"
     }
   ],
   "yield": [
     {
       "source": "arbeitnow",
-      "surfaced": 129,
+      "surfaced": 135,
       "applied": 0,
       "interviews": 0,
       "offers": 0,
@@ -456,6 +456,6 @@
     "institution/bsk: unchanged",
     "institution/aum: unchanged",
     "institution/box-hill: unchanged",
-    "institution/ask: changed (1)"
+    "institution/ask: unchanged"
   ]
 }
